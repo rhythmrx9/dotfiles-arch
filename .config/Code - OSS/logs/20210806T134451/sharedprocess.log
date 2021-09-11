@@ -1,0 +1,18 @@
+[2021-08-06 13:44:58.606] [sharedprocess] [info] Installing extension: esbenp.prettier-vscode
+[2021-08-06 13:44:58.608] [sharedprocess] [info] Installing extension: zhuangtongfa.material-theme
+[2021-08-06 13:45:01.190] [sharedprocess] [info] Downloaded extension: zhuangtongfa.material-theme /home/rhythmrx9/.config/Code - OSS/CachedExtensionVSIXs/zhuangtongfa.material-theme-3.11.3
+[2021-08-06 13:45:01.376] [sharedprocess] [info] Extracted extension to /home/rhythmrx9/.vscode-oss/extensions/.20509af3-2127-45fe-8d91-23f665cd8925: zhuangtongfa.material-theme
+[2021-08-06 13:45:01.408] [sharedprocess] [info] Renamed to /home/rhythmrx9/.vscode-oss/extensions/zhuangtongfa.material-theme-3.11.3
+[2021-08-06 13:45:01.410] [sharedprocess] [info] Installation completed. zhuangtongfa.material-theme
+[2021-08-06 13:45:01.419] [sharedprocess] [info] Extensions installed successfully: zhuangtongfa.material-theme
+[2021-08-06 13:45:04.249] [sharedprocess] [info] [logs cleanup]: Starting to clean up old logs.
+[2021-08-06 13:45:04.252] [sharedprocess] [info] [logs cleanup]: Removing log folders '20210803T214711, 20210804T145205'
+[2021-08-06 13:45:24.248] [sharedprocess] [info] [code cache cleanup]: Starting to clean up old code cache folders.
+[2021-08-06 13:45:24.249] [sharedprocess] [info] [storage cleanup]: Starting to clean up storage folders.
+[2021-08-06 13:45:27.100] [sharedprocess] [info] Extensions is already requested to install esbenp.prettier-vscode
+[2021-08-06 13:45:27.828] [sharedprocess] [info] Downloaded extension: esbenp.prettier-vscode /home/rhythmrx9/.config/Code - OSS/CachedExtensionVSIXs/esbenp.prettier-vscode-8.1.0
+[2021-08-06 13:45:28.106] [sharedprocess] [info] Extracted extension to /home/rhythmrx9/.vscode-oss/extensions/.83acfc22-e297-4181-b5c7-af1551fa0b6c: esbenp.prettier-vscode
+[2021-08-06 13:45:28.132] [sharedprocess] [info] Renamed to /home/rhythmrx9/.vscode-oss/extensions/esbenp.prettier-vscode-8.1.0
+[2021-08-06 13:45:28.136] [sharedprocess] [info] Installation completed. esbenp.prettier-vscode
+[2021-08-06 13:45:28.152] [sharedprocess] [info] Extensions installed successfully: esbenp.prettier-vscode
+[2021-08-06 13:45:34.248] [sharedprocess] [info] [language pack cache cleanup]: Starting to clean up unused language packs.

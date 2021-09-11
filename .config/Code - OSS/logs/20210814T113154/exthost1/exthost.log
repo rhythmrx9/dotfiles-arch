@@ -1,0 +1,147 @@
+[2021-08-14 11:31:58.690] [exthost] [info] extension host started
+[2021-08-14 11:31:58.742] [exthost] [info] Lock '/home/rhythmrx9/.config/Code - OSS/User/workspaceStorage/e8cde563a10cc9087bbc70a4f242fdf9/vscode.lock': Lock acquired.
+[2021-08-14 11:31:58.854] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-08-14 11:31:58.854] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2021-08-14 11:31:58.864] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-08-14 11:31:58.864] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
+[2021-08-14 11:31:58.891] [exthost] [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme {"startup":true,"extensionId":{"value":"zhuangtongfa.material-theme","_lower":"zhuangtongfa.material-theme"},"activationEvent":"*"}
+[2021-08-14 11:31:58.891] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/rhythmrx9/.vscode-oss/extensions/zhuangtongfa.material-theme-3.11.3/out/extension.js
+[2021-08-14 11:31:58.917] [exthost] [error] Activating extension zhuangtongfa.material-theme failed due to an error:
+[2021-08-14 11:31:58.918] [exthost] [error] Error: Cannot find module '/home/rhythmrx9/.vscode-oss/extensions/zhuangtongfa.material-theme-3.11.3/node_modules/marked/src/marked.js'. Please verify that the package.json has a valid "main" entry
+	at tryPackage (internal/modules/cjs/loader.js:310:19)
+	at Function.Module._findPath (internal/modules/cjs/loader.js:523:18)
+	at Function.Module._resolveFilename (internal/modules/cjs/loader.js:874:27)
+	at Module._load (internal/modules/cjs/loader.js:732:27)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+	at Function.s._load (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:27800)
+	at Function.b._load (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:24471)
+	at Function.l._load (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:59004)
+	at Module.require (internal/modules/cjs/loader.js:959:19)
+	at v (/usr/lib/code/out/vs/loader.js:4:698)
+	at Object.<anonymous> (/home/rhythmrx9/.vscode-oss/extensions/zhuangtongfa.material-theme-3.11.3/out/webviews/Changelog.js:7:16)
+	at Module.u._compile (/usr/lib/code/out/vs/loader.js:4:1315)
+	at Object.Module._extensions..js (internal/modules/cjs/loader.js:1108:10)
+	at Module.load (internal/modules/cjs/loader.js:935:32)
+	at Module._load (internal/modules/cjs/loader.js:776:14)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+	at Function.s._load (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:27800)
+	at Function.b._load (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:24471)
+	at Function.l._load (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:59004)
+	at Module.require (internal/modules/cjs/loader.js:959:19)
+	at v (/usr/lib/code/out/vs/loader.js:4:698)
+	at Object.<anonymous> (/home/rhythmrx9/.vscode-oss/extensions/zhuangtongfa.material-theme-3.11.3/out/extension.js:16:21)
+	at Module.u._compile (/usr/lib/code/out/vs/loader.js:4:1315)
+	at Object.Module._extensions..js (internal/modules/cjs/loader.js:1108:10)
+	at Module.load (internal/modules/cjs/loader.js:935:32)
+	at Module._load (internal/modules/cjs/loader.js:776:14)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+	at Function.s._load (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:27800)
+	at Function.b._load (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:24471)
+	at Function.l._load (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:59004)
+	at Module.require (internal/modules/cjs/loader.js:959:19)
+	at require (internal/modules/cjs/helpers.js:88:18)
+	at Function.t [as __$__nodeRequire] (/usr/lib/code/out/vs/loader.js:5:101)
+	at c._loadCommonJSModule (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:25877)
+	at c._doActivateExtension (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12556)
+	at c._activateExtension (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11657)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async Promise.all (index 2)
+	at async Promise.all (index 0)
+[2021-08-14 11:31:59.252] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-08-14 11:31:59.252] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/github/dist/extension.js
+[2021-08-14 11:31:59.280] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-08-14 11:31:59.280] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/ms-vscode.js-debug/src/extension.js
+[2021-08-14 11:32:00.386] [exthost] [info] eager extensions activated
+[2021-08-14 11:32:00.388] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-08-14 11:32:00.388] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/emmet/dist/node/emmetNodeMain
+[2021-08-14 11:32:00.414] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-08-14 11:32:00.414] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/merge-conflict/dist/mergeConflictMain
+[2021-08-14 11:32:00.439] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-08-14 11:32:00.439] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/testing-editor-contributions/dist/extension.js
+[2021-08-14 11:32:00.444] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":false,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"onStartupFinished"}
+[2021-08-14 11:32:00.445] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/rhythmrx9/.vscode-oss/extensions/esbenp.prettier-vscode-8.1.0/dist/extension
+[2021-08-14 11:33:13.770] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-08-14 11:33:13.770] [exthost] [info] Lock '/home/rhythmrx9/.config/Code - OSS/User/workspaceStorage/e8cde563a10cc9087bbc70a4f242fdf9/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2021-08-14 11:33:14.775] [exthost] [info] exiting with code 0
+[2021-08-14 11:33:15.237] [exthost] [info] extension host started
+[2021-08-14 11:33:15.271] [exthost] [info] Lock '/home/rhythmrx9/.config/Code - OSS/User/workspaceStorage/13803ca1034c4830fa48de4a50a55cbf/vscode.lock': Lock acquired.
+[2021-08-14 11:33:15.339] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-08-14 11:33:15.340] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2021-08-14 11:33:15.343] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-08-14 11:33:15.343] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
+[2021-08-14 11:33:15.361] [exthost] [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme {"startup":true,"extensionId":{"value":"zhuangtongfa.material-theme","_lower":"zhuangtongfa.material-theme"},"activationEvent":"*"}
+[2021-08-14 11:33:15.361] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/rhythmrx9/.vscode-oss/extensions/zhuangtongfa.material-theme-3.11.3/out/extension.js
+[2021-08-14 11:33:15.368] [exthost] [error] Activating extension zhuangtongfa.material-theme failed due to an error:
+[2021-08-14 11:33:15.368] [exthost] [error] Error: Cannot find module '/home/rhythmrx9/.vscode-oss/extensions/zhuangtongfa.material-theme-3.11.3/node_modules/marked/src/marked.js'. Please verify that the package.json has a valid "main" entry
+	at tryPackage (internal/modules/cjs/loader.js:310:19)
+	at Function.Module._findPath (internal/modules/cjs/loader.js:523:18)
+	at Function.Module._resolveFilename (internal/modules/cjs/loader.js:874:27)
+	at Module._load (internal/modules/cjs/loader.js:732:27)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+	at Function.s._load (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:27800)
+	at Function.b._load (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:24471)
+	at Function.l._load (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:59004)
+	at Module.require (internal/modules/cjs/loader.js:959:19)
+	at v (/usr/lib/code/out/vs/loader.js:4:698)
+	at Object.<anonymous> (/home/rhythmrx9/.vscode-oss/extensions/zhuangtongfa.material-theme-3.11.3/out/webviews/Changelog.js:7:16)
+	at Module.u._compile (/usr/lib/code/out/vs/loader.js:4:1315)
+	at Object.Module._extensions..js (internal/modules/cjs/loader.js:1108:10)
+	at Module.load (internal/modules/cjs/loader.js:935:32)
+	at Module._load (internal/modules/cjs/loader.js:776:14)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+	at Function.s._load (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:27800)
+	at Function.b._load (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:24471)
+	at Function.l._load (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:59004)
+	at Module.require (internal/modules/cjs/loader.js:959:19)
+	at v (/usr/lib/code/out/vs/loader.js:4:698)
+	at Object.<anonymous> (/home/rhythmrx9/.vscode-oss/extensions/zhuangtongfa.material-theme-3.11.3/out/extension.js:16:21)
+	at Module.u._compile (/usr/lib/code/out/vs/loader.js:4:1315)
+	at Object.Module._extensions..js (internal/modules/cjs/loader.js:1108:10)
+	at Module.load (internal/modules/cjs/loader.js:935:32)
+	at Module._load (internal/modules/cjs/loader.js:776:14)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+	at Function.s._load (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:27800)
+	at Function.b._load (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:24471)
+	at Function.l._load (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:59004)
+	at Module.require (internal/modules/cjs/loader.js:959:19)
+	at require (internal/modules/cjs/helpers.js:88:18)
+	at Function.t [as __$__nodeRequire] (/usr/lib/code/out/vs/loader.js:5:101)
+	at c._loadCommonJSModule (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:25877)
+	at c._doActivateExtension (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12556)
+	at c._activateExtension (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11657)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async Promise.all (index 2)
+	at async Promise.all (index 0)
+[2021-08-14 11:33:15.425] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-08-14 11:33:15.425] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/github/dist/extension.js
+[2021-08-14 11:33:15.433] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-08-14 11:33:15.433] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/ms-vscode.js-debug/src/extension.js
+[2021-08-14 11:33:15.575] [exthost] [info] eager extensions activated
+[2021-08-14 11:33:15.580] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-08-14 11:33:15.580] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/emmet/dist/node/emmetNodeMain
+[2021-08-14 11:33:15.585] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-08-14 11:33:15.585] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/merge-conflict/dist/mergeConflictMain
+[2021-08-14 11:33:15.587] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-08-14 11:33:15.587] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/testing-editor-contributions/dist/extension.js
+[2021-08-14 11:33:15.588] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":false,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"onStartupFinished"}
+[2021-08-14 11:33:15.588] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/rhythmrx9/.vscode-oss/extensions/esbenp.prettier-vscode-8.1.0/dist/extension
+[2021-08-14 12:00:14.242] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:json"}
+[2021-08-14 12:00:14.242] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/configuration-editing/dist/configurationEditingMain
+[2021-08-14 12:00:14.257] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:json"}
+[2021-08-14 12:00:14.259] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/extension-editing/dist/extensionEditingMain
+[2021-08-14 12:00:14.279] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:json"}
+[2021-08-14 12:00:14.279] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-08-14 12:00:14.365] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"onLanguage:json"}
+[2021-08-14 12:00:14.366] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/npm/dist/npmMain
+[2021-08-14 12:00:15.245] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-08-14 12:00:15.245] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/typescript-language-features/dist/extension
+[2021-08-14 12:00:16.746] [exthost] [error] [vscode.json-language-features] provider FAILED
+[2021-08-14 12:00:16.746] [exthost] [error] Canceled: Canceled
+	at b.makeCancelError (/usr/lib/code/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:64563)
+	at b.handleFailedRequest (/usr/lib/code/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:64414)
+	at /usr/lib/code/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:24756
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+[2021-08-14 12:05:58.800] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-08-14 12:05:58.800] [exthost] [info] Lock '/home/rhythmrx9/.config/Code - OSS/User/workspaceStorage/13803ca1034c4830fa48de4a50a55cbf/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2021-08-14 12:05:59.821] [exthost] [info] exiting with code 0

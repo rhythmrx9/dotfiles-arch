@@ -1,0 +1,1817 @@
+I[16:36:12.212] clangd version 12.0.1
+I[16:36:12.212] PID: 20568
+I[16:36:12.212] Working directory: /home/rhythmrx9/code/cFiles
+I[16:36:12.212] argv[0]: /usr/bin/clangd
+I[16:36:12.214] Starting LSP over stdin/stdout
+I[16:36:12.217] <-- initialize(0)
+I[16:36:12.219] Client supports legacy semanticHighlights notification and standard semanticTokens request, choosing the latter (no notifications).
+I[16:36:12.224] --> reply:initialize(0) 7 ms
+I[16:36:12.239] <-- initialized
+I[16:36:12.239] <-- textDocument/didOpen
+I[16:36:12.242] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:36:12.242] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 1 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:36:12.250] <-- textDocument/documentSymbol(1)
+I[16:36:12.251] <-- textDocument/documentLink(2)
+I[16:36:12.262] --> textDocument/clangd.fileStatus
+I[16:36:12.342] --> textDocument/publishDiagnostics
+I[16:36:12.344] --> reply:textDocument/documentSymbol(1) 93 ms
+I[16:36:12.344] --> reply:textDocument/documentLink(2) 93 ms
+I[16:36:12.344] --> textDocument/clangd.fileStatus
+I[16:36:12.549] <-- textDocument/semanticTokens/full(3)
+I[16:36:12.549] --> reply:textDocument/semanticTokens/full(3) 0 ms
+I[16:36:12.550] --> textDocument/clangd.fileStatus
+I[16:36:37.275] <-- textDocument/didChange
+I[16:36:37.275] --> textDocument/clangd.fileStatus
+I[16:36:37.325] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:36:37.325] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 2 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:36:37.327] --> textDocument/clangd.fileStatus
+I[16:36:37.327] --> textDocument/clangd.fileStatus
+I[16:36:37.337] <-- textDocument/definition(4)
+I[16:36:37.337] --> textDocument/clangd.fileStatus
+I[16:36:37.408] --> reply:textDocument/definition(4) 71 ms
+I[16:36:37.411] --> textDocument/clangd.fileStatus
+I[16:36:37.412] --> textDocument/clangd.fileStatus
+I[16:36:37.421] --> textDocument/publishDiagnostics
+I[16:36:37.421] --> textDocument/clangd.fileStatus
+I[16:36:37.448] <-- textDocument/didOpen
+I[16:36:37.448] <-- textDocument/didClose
+I[16:36:37.448] --> textDocument/publishDiagnostics
+I[16:36:37.448] <-- textDocument/hover(5)
+I[16:36:37.448] Failed to find compilation database for /usr/include/stdio.h
+I[16:36:37.448] ASTWorker building file /usr/include/stdio.h version 1 with command clangd fallback
+[/usr/include]
+/usr/bin/clang -xobjective-c++-header /usr/include/stdio.h -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:36:37.452] --> reply:textDocument/hover(5) 3 ms
+I[16:36:37.452] --> textDocument/clangd.fileStatus
+I[16:36:37.497] <-- textDocument/semanticTokens/full/delta(6)
+I[16:36:37.497] --> reply:textDocument/semanticTokens/full/delta(6) 0 ms
+I[16:36:37.498] --> textDocument/clangd.fileStatus
+I[16:36:37.572] <-- textDocument/documentSymbol(7)
+I[16:36:37.572] --> reply:textDocument/documentSymbol(7) 0 ms
+I[16:36:37.572] --> textDocument/clangd.fileStatus
+I[16:36:37.709] <-- textDocument/codeAction(8)
+I[16:36:37.714] --> reply:textDocument/codeAction(8) 4 ms
+I[16:36:37.714] --> textDocument/clangd.fileStatus
+I[16:36:38.192] <-- textDocument/documentLink(9)
+I[16:36:38.193] --> reply:textDocument/documentLink(9) 0 ms
+I[16:36:38.193] --> textDocument/clangd.fileStatus
+I[16:36:40.027] <-- textDocument/hover(10)
+I[16:36:40.028] --> reply:textDocument/hover(10) 0 ms
+I[16:36:40.028] --> textDocument/clangd.fileStatus
+I[16:36:40.232] <-- textDocument/definition(11)
+I[16:36:40.233] --> reply:textDocument/definition(11) 0 ms
+I[16:36:40.233] --> textDocument/clangd.fileStatus
+I[16:36:40.401] <-- textDocument/didSave
+I[16:36:40.401] --> textDocument/clangd.fileStatus
+I[16:36:40.451] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:36:40.451] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 2 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:36:40.453] --> textDocument/clangd.fileStatus
+I[16:36:40.453] --> textDocument/clangd.fileStatus
+I[16:36:40.454] --> textDocument/clangd.fileStatus
+I[16:36:40.454] --> textDocument/clangd.fileStatus
+I[16:37:12.614] <-- textDocument/hover(12)
+I[16:37:12.616] --> reply:textDocument/hover(12) 1 ms
+I[16:37:12.616] --> textDocument/clangd.fileStatus
+I[16:37:31.542] <-- textDocument/hover(13)
+I[16:37:31.542] --> reply:textDocument/hover(13) 0 ms
+I[16:37:31.542] --> textDocument/clangd.fileStatus
+I[16:37:31.843] <-- textDocument/hover(14)
+I[16:37:31.843] --> reply:textDocument/hover(14) 0 ms
+I[16:37:31.843] --> textDocument/clangd.fileStatus
+I[16:37:32.880] <-- textDocument/hover(15)
+I[16:37:32.882] --> reply:textDocument/hover(15) 2 ms
+I[16:37:32.882] --> textDocument/clangd.fileStatus
+I[16:37:33.091] <-- textDocument/hover(16)
+I[16:37:33.093] --> reply:textDocument/hover(16) 1 ms
+I[16:37:33.093] --> textDocument/clangd.fileStatus
+I[16:37:34.224] <-- textDocument/hover(17)
+I[16:37:34.225] --> reply:textDocument/hover(17) 1 ms
+I[16:37:34.225] --> textDocument/clangd.fileStatus
+I[16:37:34.452] <-- textDocument/documentHighlight(18)
+I[16:37:34.452] --> reply:textDocument/documentHighlight(18) 0 ms
+I[16:37:34.452] --> textDocument/clangd.fileStatus
+I[16:37:34.713] <-- textDocument/codeAction(19)
+I[16:37:34.714] --> reply:textDocument/codeAction(19) 0 ms
+I[16:37:34.714] --> textDocument/clangd.fileStatus
+I[16:37:43.507] <-- textDocument/hover(20)
+I[16:37:43.509] --> reply:textDocument/hover(20) 1 ms
+I[16:37:43.510] --> textDocument/clangd.fileStatus
+I[16:37:44.209] <-- textDocument/hover(21)
+I[16:37:44.209] --> reply:textDocument/hover(21) 0 ms
+I[16:37:44.209] --> textDocument/clangd.fileStatus
+I[16:37:44.597] <-- textDocument/hover(22)
+I[16:37:44.598] --> reply:textDocument/hover(22) 0 ms
+I[16:37:44.598] --> textDocument/clangd.fileStatus
+I[16:37:45.051] <-- textDocument/codeAction(23)
+I[16:37:45.051] --> reply:textDocument/codeAction(23) 0 ms
+I[16:37:45.051] --> textDocument/clangd.fileStatus
+I[16:37:45.518] <-- textDocument/codeAction(24)
+I[16:37:45.519] --> reply:textDocument/codeAction(24) 0 ms
+I[16:37:45.519] --> textDocument/clangd.fileStatus
+I[16:39:23.839] <-- textDocument/hover(25)
+I[16:39:23.839] --> reply:textDocument/hover(25) 0 ms
+I[16:39:23.839] --> textDocument/clangd.fileStatus
+I[16:39:26.370] <-- textDocument/hover(26)
+I[16:39:26.371] --> reply:textDocument/hover(26) 0 ms
+I[16:39:26.371] --> textDocument/clangd.fileStatus
+I[16:39:26.971] <-- textDocument/hover(27)
+I[16:39:26.971] --> reply:textDocument/hover(27) 0 ms
+I[16:39:26.971] --> textDocument/clangd.fileStatus
+I[16:39:27.378] <-- textDocument/codeAction(28)
+I[16:39:27.378] --> reply:textDocument/codeAction(28) 0 ms
+I[16:39:27.378] --> textDocument/clangd.fileStatus
+I[16:39:27.607] <-- textDocument/hover(29)
+I[16:39:27.608] --> reply:textDocument/hover(29) 0 ms
+I[16:39:27.608] --> textDocument/clangd.fileStatus
+I[16:39:29.231] <-- textDocument/codeAction(30)
+I[16:39:29.231] --> reply:textDocument/codeAction(30) 0 ms
+I[16:39:29.232] --> textDocument/clangd.fileStatus
+I[16:39:30.600] <-- textDocument/didChange
+I[16:39:30.600] --> textDocument/clangd.fileStatus
+I[16:39:30.650] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:39:30.650] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 3 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:39:30.652] --> textDocument/clangd.fileStatus
+I[16:39:30.652] --> textDocument/clangd.fileStatus
+I[16:39:30.652] --> textDocument/clangd.fileStatus
+I[16:39:30.658] --> textDocument/publishDiagnostics
+I[16:39:30.658] --> textDocument/clangd.fileStatus
+I[16:39:30.871] <-- textDocument/semanticTokens/full/delta(31)
+I[16:39:30.872] --> reply:textDocument/semanticTokens/full/delta(31) 0 ms
+I[16:39:30.872] --> textDocument/clangd.fileStatus
+I[16:39:30.920] <-- textDocument/codeAction(32)
+I[16:39:30.920] --> reply:textDocument/codeAction(32) 0 ms
+I[16:39:30.921] --> textDocument/clangd.fileStatus
+I[16:39:30.929] <-- textDocument/documentSymbol(33)
+I[16:39:30.929] --> reply:textDocument/documentSymbol(33) 0 ms
+I[16:39:30.929] --> textDocument/clangd.fileStatus
+I[16:39:31.596] <-- textDocument/documentLink(34)
+I[16:39:31.596] --> reply:textDocument/documentLink(34) 0 ms
+I[16:39:31.596] --> textDocument/clangd.fileStatus
+I[16:42:01.503] <-- textDocument/hover(35)
+I[16:42:01.504] --> reply:textDocument/hover(35) 1 ms
+I[16:42:01.504] --> textDocument/clangd.fileStatus
+I[16:42:02.433] <-- textDocument/hover(36)
+I[16:42:02.434] --> reply:textDocument/hover(36) 1 ms
+I[16:42:02.434] --> textDocument/clangd.fileStatus
+I[16:42:02.631] <-- textDocument/hover(37)
+I[16:42:02.633] --> reply:textDocument/hover(37) 2 ms
+I[16:42:02.634] --> textDocument/clangd.fileStatus
+I[16:42:02.812] <-- textDocument/codeAction(38)
+I[16:42:02.812] --> reply:textDocument/codeAction(38) 0 ms
+I[16:42:02.812] --> textDocument/clangd.fileStatus
+I[16:42:12.666] <-- textDocument/hover(39)
+I[16:42:12.667] --> reply:textDocument/hover(39) 1 ms
+I[16:42:12.667] --> textDocument/clangd.fileStatus
+I[16:42:12.912] <-- textDocument/hover(40)
+I[16:42:12.913] --> reply:textDocument/hover(40) 1 ms
+I[16:42:12.914] --> textDocument/clangd.fileStatus
+I[16:42:13.212] <-- textDocument/hover(41)
+I[16:42:13.212] --> reply:textDocument/hover(41) 0 ms
+I[16:42:13.212] --> textDocument/clangd.fileStatus
+I[16:42:13.832] <-- textDocument/hover(42)
+I[16:42:13.833] --> reply:textDocument/hover(42) 1 ms
+I[16:42:13.833] --> textDocument/clangd.fileStatus
+I[16:42:14.437] <-- textDocument/hover(43)
+I[16:42:14.439] --> reply:textDocument/hover(43) 1 ms
+I[16:42:14.439] --> textDocument/clangd.fileStatus
+I[16:42:14.617] <-- textDocument/codeAction(44)
+I[16:42:14.617] --> reply:textDocument/codeAction(44) 0 ms
+I[16:42:14.617] --> textDocument/clangd.fileStatus
+I[16:42:22.799] <-- textDocument/hover(45)
+I[16:42:22.801] --> reply:textDocument/hover(45) 1 ms
+I[16:42:22.801] --> textDocument/clangd.fileStatus
+I[16:42:24.276] <-- textDocument/hover(46)
+I[16:42:24.276] --> reply:textDocument/hover(46) 0 ms
+I[16:42:24.276] --> textDocument/clangd.fileStatus
+I[16:42:25.530] <-- textDocument/codeAction(47)
+I[16:42:25.530] --> reply:textDocument/codeAction(47) 0 ms
+I[16:42:25.531] --> textDocument/clangd.fileStatus
+I[16:42:26.802] <-- textDocument/didChange
+I[16:42:26.802] --> textDocument/clangd.fileStatus
+I[16:42:26.853] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:42:26.853] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 4 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:42:26.857] --> textDocument/clangd.fileStatus
+I[16:42:26.858] --> textDocument/clangd.fileStatus
+I[16:42:26.858] --> textDocument/clangd.fileStatus
+I[16:42:26.879] --> textDocument/publishDiagnostics
+I[16:42:26.879] --> textDocument/clangd.fileStatus
+I[16:42:27.048] <-- textDocument/definition(48)
+I[16:42:27.049] --> reply:textDocument/definition(48) 0 ms
+I[16:42:27.049] --> textDocument/clangd.fileStatus
+I[16:42:27.097] <-- textDocument/semanticTokens/full/delta(49)
+I[16:42:27.097] --> reply:textDocument/semanticTokens/full/delta(49) 0 ms
+I[16:42:27.098] --> textDocument/clangd.fileStatus
+I[16:42:27.148] <-- textDocument/documentSymbol(50)
+I[16:42:27.148] --> reply:textDocument/documentSymbol(50) 0 ms
+I[16:42:27.148] --> textDocument/clangd.fileStatus
+I[16:42:27.811] <-- textDocument/documentLink(51)
+I[16:42:27.812] --> reply:textDocument/documentLink(51) 0 ms
+I[16:42:27.812] --> textDocument/clangd.fileStatus
+I[16:42:29.377] <-- textDocument/codeAction(52)
+I[16:42:29.377] --> reply:textDocument/codeAction(52) 0 ms
+I[16:42:29.378] --> textDocument/clangd.fileStatus
+I[16:42:30.180] <-- textDocument/didChange
+I[16:42:30.180] --> textDocument/clangd.fileStatus
+I[16:42:30.231] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:42:30.231] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 5 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:42:30.236] --> textDocument/clangd.fileStatus
+I[16:42:30.236] --> textDocument/clangd.fileStatus
+I[16:42:30.303] --> textDocument/clangd.fileStatus
+I[16:42:30.309] --> textDocument/publishDiagnostics
+I[16:42:30.310] --> textDocument/clangd.fileStatus
+I[16:42:30.363] <-- textDocument/didChange
+I[16:42:30.363] --> textDocument/clangd.fileStatus
+I[16:42:30.413] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:42:30.413] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 6 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:42:30.415] --> textDocument/clangd.fileStatus
+I[16:42:30.415] --> textDocument/clangd.fileStatus
+I[16:42:30.442] --> textDocument/clangd.fileStatus
+I[16:42:30.448] --> textDocument/publishDiagnostics
+I[16:42:30.449] --> textDocument/clangd.fileStatus
+I[16:42:30.464] <-- textDocument/semanticTokens/full/delta(53)
+I[16:42:30.464] --> reply:textDocument/semanticTokens/full/delta(53) 0 ms
+I[16:42:30.464] --> textDocument/clangd.fileStatus
+I[16:42:30.678] <-- textDocument/didChange
+I[16:42:30.679] --> textDocument/clangd.fileStatus
+I[16:42:30.729] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:42:30.729] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 7 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:42:30.734] --> textDocument/clangd.fileStatus
+I[16:42:30.734] --> textDocument/clangd.fileStatus
+I[16:42:30.821] --> textDocument/clangd.fileStatus
+I[16:42:30.830] --> textDocument/publishDiagnostics
+I[16:42:30.830] --> textDocument/clangd.fileStatus
+I[16:42:30.917] <-- textDocument/semanticTokens/full/delta(54)
+I[16:42:30.917] --> reply:textDocument/semanticTokens/full/delta(54) 0 ms
+I[16:42:30.918] --> textDocument/clangd.fileStatus
+I[16:42:30.968] <-- textDocument/documentSymbol(55)
+I[16:42:30.969] --> reply:textDocument/documentSymbol(55) 0 ms
+I[16:42:30.969] --> textDocument/clangd.fileStatus
+I[16:42:31.166] <-- textDocument/documentLink(56)
+I[16:42:31.169] --> reply:textDocument/documentLink(56) 2 ms
+I[16:42:31.169] --> textDocument/clangd.fileStatus
+I[16:42:31.811] <-- textDocument/didChange
+I[16:42:31.811] --> textDocument/clangd.fileStatus
+I[16:42:31.861] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:42:31.861] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 8 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:42:31.863] --> textDocument/clangd.fileStatus
+I[16:42:31.863] --> textDocument/clangd.fileStatus
+I[16:42:31.892] --> textDocument/clangd.fileStatus
+I[16:42:31.898] --> textDocument/publishDiagnostics
+I[16:42:31.899] --> textDocument/clangd.fileStatus
+I[16:42:32.100] <-- textDocument/semanticTokens/full/delta(57)
+I[16:42:32.101] --> reply:textDocument/semanticTokens/full/delta(57) 0 ms
+I[16:42:32.101] --> textDocument/clangd.fileStatus
+I[16:42:32.152] <-- textDocument/documentSymbol(58)
+I[16:42:32.153] --> reply:textDocument/documentSymbol(58) 1 ms
+I[16:42:32.153] --> textDocument/clangd.fileStatus
+I[16:42:32.810] <-- textDocument/documentLink(59)
+I[16:42:32.811] --> reply:textDocument/documentLink(59) 0 ms
+I[16:42:32.811] --> textDocument/clangd.fileStatus
+I[16:42:32.983] <-- textDocument/didSave
+I[16:42:32.983] --> textDocument/clangd.fileStatus
+I[16:42:33.033] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:42:33.033] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 8 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:42:33.035] --> textDocument/clangd.fileStatus
+I[16:42:33.035] --> textDocument/clangd.fileStatus
+I[16:42:33.035] --> textDocument/clangd.fileStatus
+I[16:42:33.035] --> textDocument/clangd.fileStatus
+I[16:42:35.423] <-- textDocument/hover(60)
+I[16:42:35.425] --> reply:textDocument/hover(60) 1 ms
+I[16:42:35.425] --> textDocument/clangd.fileStatus
+I[16:42:36.119] <-- textDocument/hover(61)
+I[16:42:36.122] --> reply:textDocument/hover(61) 2 ms
+I[16:42:36.122] --> textDocument/clangd.fileStatus
+I[16:42:36.695] <-- textDocument/codeAction(62)
+I[16:42:36.696] --> reply:textDocument/codeAction(62) 0 ms
+I[16:42:36.696] --> textDocument/clangd.fileStatus
+I[16:42:36.915] <-- textDocument/hover(63)
+I[16:42:36.915] --> reply:textDocument/hover(63) 0 ms
+I[16:42:36.915] --> textDocument/clangd.fileStatus
+I[16:42:37.118] <-- textDocument/hover(64)
+I[16:42:37.120] --> reply:textDocument/hover(64) 1 ms
+I[16:42:37.120] --> textDocument/clangd.fileStatus
+I[16:42:40.988] <-- textDocument/didChange
+I[16:42:40.988] --> textDocument/clangd.fileStatus
+I[16:42:40.988] <-- textDocument/completion(65)
+I[16:42:40.997] Code complete: sema context DotMemberAccess, query scopes [] (AnyScope=true), expected type <none>
+I[16:42:40.997] Code complete: 4 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[16:42:40.997] --> reply:textDocument/completion(65) 9 ms
+I[16:42:41.038] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:42:41.038] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 9 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:42:41.040] --> textDocument/clangd.fileStatus
+I[16:42:41.040] --> textDocument/clangd.fileStatus
+I[16:42:41.040] --> textDocument/clangd.fileStatus
+I[16:42:41.049] --> textDocument/publishDiagnostics
+I[16:42:41.049] --> textDocument/clangd.fileStatus
+I[16:42:41.248] <-- textDocument/semanticTokens/full/delta(66)
+I[16:42:41.249] --> reply:textDocument/semanticTokens/full/delta(66) 0 ms
+I[16:42:41.249] --> textDocument/clangd.fileStatus
+I[16:42:41.317] <-- textDocument/didChange
+I[16:42:41.317] --> textDocument/clangd.fileStatus
+I[16:42:41.317] <-- textDocument/completion(67)
+I[16:42:41.322] Code complete: sema context DotMemberAccess, query scopes [] (AnyScope=true), expected type <none>
+I[16:42:41.323] Code complete: 1 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 1 returned.
+I[16:42:41.323] --> reply:textDocument/completion(67) 5 ms
+I[16:42:41.367] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:42:41.368] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 10 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:42:41.372] --> textDocument/clangd.fileStatus
+I[16:42:41.372] --> textDocument/clangd.fileStatus
+I[16:42:41.373] --> textDocument/clangd.fileStatus
+I[16:42:41.425] --> textDocument/publishDiagnostics
+I[16:42:41.426] --> textDocument/clangd.fileStatus
+I[16:42:41.529] <-- textDocument/didChange
+I[16:42:41.529] --> textDocument/clangd.fileStatus
+I[16:42:41.530] <-- textDocument/completion(68)
+I[16:42:41.538] Code complete: sema context DotMemberAccess, query scopes [] (AnyScope=true), expected type <none>
+I[16:42:41.538] Code complete: 1 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 1 returned.
+I[16:42:41.538] --> reply:textDocument/completion(68) 8 ms
+I[16:42:41.580] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:42:41.580] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 11 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:42:41.581] --> textDocument/clangd.fileStatus
+I[16:42:41.581] --> textDocument/clangd.fileStatus
+I[16:42:41.581] --> textDocument/clangd.fileStatus
+I[16:42:41.589] --> textDocument/publishDiagnostics
+I[16:42:41.590] --> textDocument/clangd.fileStatus
+I[16:42:41.605] <-- textDocument/semanticTokens/full/delta(69)
+I[16:42:41.605] --> reply:textDocument/semanticTokens/full/delta(69) 0 ms
+I[16:42:41.605] --> textDocument/clangd.fileStatus
+I[16:42:41.803] <-- textDocument/didChange
+I[16:42:41.804] --> textDocument/clangd.fileStatus
+I[16:42:41.804] <-- textDocument/completion(70)
+I[16:42:41.817] Code complete: sema context DotMemberAccess, query scopes [] (AnyScope=true), expected type <none>
+I[16:42:41.817] Code complete: 1 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 1 returned.
+I[16:42:41.818] --> reply:textDocument/completion(70) 13 ms
+I[16:42:41.854] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:42:41.854] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 12 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:42:41.857] --> textDocument/clangd.fileStatus
+I[16:42:41.858] --> textDocument/clangd.fileStatus
+I[16:42:41.860] --> textDocument/clangd.fileStatus
+I[16:42:41.878] --> textDocument/publishDiagnostics
+I[16:42:41.878] --> textDocument/clangd.fileStatus
+I[16:42:41.972] <-- textDocument/didChange
+I[16:42:41.972] <-- textDocument/completion(71)
+I[16:42:41.973] --> textDocument/clangd.fileStatus
+I[16:42:41.982] <-- textDocument/documentLink(72)
+I[16:42:41.982] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:42:41.983] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 13 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:42:41.984] Code complete: sema context DotMemberAccess, query scopes [] (AnyScope=true), expected type <none>
+I[16:42:41.984] Code complete: 1 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 1 returned.
+I[16:42:41.984] --> reply:textDocument/completion(71) 11 ms
+I[16:42:41.988] --> textDocument/clangd.fileStatus
+I[16:42:42.004] --> reply:textDocument/documentLink(72) 21 ms
+I[16:42:42.004] Skipping rebuild of the AST for /home/rhythmrx9/code/cFiles/samp..c, inputs are the same.
+I[16:42:42.005] --> textDocument/publishDiagnostics
+I[16:42:42.007] --> textDocument/clangd.fileStatus
+I[16:42:42.066] <-- textDocument/semanticTokens/full/delta(73)
+I[16:42:42.066] --> reply:textDocument/semanticTokens/full/delta(73) 0 ms
+I[16:42:42.066] --> textDocument/clangd.fileStatus
+I[16:42:42.267] <-- textDocument/codeAction(74)
+I[16:42:42.267] --> reply:textDocument/codeAction(74) 0 ms
+I[16:42:42.267] --> textDocument/clangd.fileStatus
+I[16:42:42.280] <-- textDocument/documentSymbol(75)
+I[16:42:42.281] --> reply:textDocument/documentSymbol(75) 0 ms
+I[16:42:42.281] --> textDocument/clangd.fileStatus
+I[16:42:43.541] <-- textDocument/hover(76)
+I[16:42:43.542] --> reply:textDocument/hover(76) 1 ms
+I[16:42:43.543] --> textDocument/clangd.fileStatus
+I[16:42:43.905] <-- textDocument/codeAction(77)
+I[16:42:43.905] --> reply:textDocument/codeAction(77) 0 ms
+I[16:42:43.905] --> textDocument/clangd.fileStatus
+I[16:42:44.597] <-- textDocument/didChange
+I[16:42:44.597] --> textDocument/clangd.fileStatus
+I[16:42:44.597] <-- textDocument/completion(78)
+I[16:42:44.601] Code complete: sema context DotMemberAccess, query scopes [] (AnyScope=true), expected type <none>
+I[16:42:44.602] Code complete: 4 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[16:42:44.602] --> reply:textDocument/completion(78) 4 ms
+I[16:42:44.647] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:42:44.648] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 14 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:42:44.653] --> textDocument/clangd.fileStatus
+I[16:42:44.653] --> textDocument/clangd.fileStatus
+I[16:42:44.655] --> textDocument/clangd.fileStatus
+I[16:42:44.674] --> textDocument/publishDiagnostics
+I[16:42:44.674] --> textDocument/clangd.fileStatus
+I[16:42:44.867] <-- textDocument/didChange
+I[16:42:44.867] --> textDocument/clangd.fileStatus
+I[16:42:44.867] <-- textDocument/completion(79)
+I[16:42:44.868] <-- textDocument/semanticTokens/full/delta(80)
+I[16:42:44.868] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:42:44.869] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 15 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:42:44.871] --> textDocument/clangd.fileStatus
+I[16:42:44.873] Code complete: sema context DotMemberAccess, query scopes [] (AnyScope=true), expected type <none>
+I[16:42:44.873] Code complete: 1 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 1 returned.
+I[16:42:44.873] --> reply:textDocument/completion(79) 6 ms
+I[16:42:44.880] --> reply:textDocument/semanticTokens/full/delta(80) 11 ms
+I[16:42:44.880] Skipping rebuild of the AST for /home/rhythmrx9/code/cFiles/samp..c, inputs are the same.
+I[16:42:44.881] --> textDocument/publishDiagnostics
+I[16:42:44.881] --> textDocument/clangd.fileStatus
+I[16:42:44.945] <-- textDocument/didChange
+I[16:42:44.945] --> textDocument/clangd.fileStatus
+I[16:42:44.945] <-- textDocument/completion(81)
+I[16:42:44.949] Code complete: sema context DotMemberAccess, query scopes [] (AnyScope=true), expected type <none>
+I[16:42:44.949] Code complete: 1 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 1 returned.
+I[16:42:44.949] --> reply:textDocument/completion(81) 4 ms
+I[16:42:44.996] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:42:44.996] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 16 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:42:45.003] --> textDocument/clangd.fileStatus
+I[16:42:45.003] --> textDocument/clangd.fileStatus
+I[16:42:45.004] --> textDocument/clangd.fileStatus
+I[16:42:45.034] --> textDocument/publishDiagnostics
+I[16:42:45.034] --> textDocument/clangd.fileStatus
+I[16:42:45.113] <-- textDocument/didChange
+I[16:42:45.113] --> textDocument/clangd.fileStatus
+I[16:42:45.113] <-- textDocument/completion(82)
+I[16:42:45.117] Code complete: sema context DotMemberAccess, query scopes [] (AnyScope=true), expected type <none>
+I[16:42:45.117] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[16:42:45.117] --> reply:textDocument/completion(82) 3 ms
+I[16:42:45.163] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:42:45.163] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 17 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:42:45.165] --> textDocument/clangd.fileStatus
+I[16:42:45.165] --> textDocument/clangd.fileStatus
+I[16:42:45.165] --> textDocument/clangd.fileStatus
+I[16:42:45.173] --> textDocument/publishDiagnostics
+I[16:42:45.174] --> textDocument/clangd.fileStatus
+I[16:42:45.236] <-- textDocument/semanticTokens/full/delta(83)
+I[16:42:45.237] --> reply:textDocument/semanticTokens/full/delta(83) 1 ms
+I[16:42:45.237] --> textDocument/clangd.fileStatus
+I[16:42:45.338] <-- textDocument/didChange
+I[16:42:45.339] --> textDocument/clangd.fileStatus
+I[16:42:45.386] <-- textDocument/completion(84)
+I[16:42:45.388] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:42:45.389] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 18 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:42:45.392] Code complete: sema context DotMemberAccess, query scopes [] (AnyScope=true), expected type <none>
+I[16:42:45.392] --> textDocument/clangd.fileStatus
+I[16:42:45.393] --> textDocument/clangd.fileStatus
+I[16:42:45.393] --> textDocument/clangd.fileStatus
+I[16:42:45.394] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[16:42:45.394] --> reply:textDocument/completion(84) 7 ms
+I[16:42:45.408] --> textDocument/publishDiagnostics
+I[16:42:45.408] --> textDocument/clangd.fileStatus
+I[16:42:45.567] <-- textDocument/documentLink(85)
+I[16:42:45.568] --> reply:textDocument/documentLink(85) 0 ms
+I[16:42:45.568] --> textDocument/clangd.fileStatus
+I[16:42:45.625] <-- textDocument/semanticTokens/full/delta(86)
+I[16:42:45.626] --> reply:textDocument/semanticTokens/full/delta(86) 0 ms
+I[16:42:45.626] --> textDocument/clangd.fileStatus
+I[16:42:45.668] <-- textDocument/codeAction(87)
+I[16:42:45.668] --> reply:textDocument/codeAction(87) 0 ms
+I[16:42:45.668] --> textDocument/clangd.fileStatus
+I[16:42:45.680] <-- textDocument/documentSymbol(88)
+I[16:42:45.680] --> reply:textDocument/documentSymbol(88) 0 ms
+I[16:42:45.681] --> textDocument/clangd.fileStatus
+I[16:42:45.773] <-- textDocument/didChange
+I[16:42:45.773] --> textDocument/clangd.fileStatus
+I[16:42:45.823] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:42:45.824] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 19 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:42:45.827] --> textDocument/clangd.fileStatus
+I[16:42:45.829] --> textDocument/clangd.fileStatus
+I[16:42:45.829] --> textDocument/clangd.fileStatus
+I[16:42:45.842] --> textDocument/publishDiagnostics
+I[16:42:45.842] --> textDocument/clangd.fileStatus
+I[16:42:45.922] <-- textDocument/didChange
+I[16:42:45.922] --> textDocument/clangd.fileStatus
+I[16:42:45.972] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:42:45.973] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 20 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:42:45.979] --> textDocument/clangd.fileStatus
+I[16:42:45.980] --> textDocument/clangd.fileStatus
+I[16:42:45.980] --> textDocument/clangd.fileStatus
+I[16:42:46.014] --> textDocument/publishDiagnostics
+I[16:42:46.015] --> textDocument/clangd.fileStatus
+I[16:42:46.066] <-- textDocument/semanticTokens/full/delta(89)
+I[16:42:46.066] --> reply:textDocument/semanticTokens/full/delta(89) 0 ms
+I[16:42:46.067] --> textDocument/clangd.fileStatus
+I[16:42:46.263] <-- textDocument/documentSymbol(90)
+I[16:42:46.264] --> reply:textDocument/documentSymbol(90) 1 ms
+I[16:42:46.265] --> textDocument/clangd.fileStatus
+I[16:42:46.288] <-- textDocument/codeAction(91)
+I[16:42:46.289] --> reply:textDocument/codeAction(91) 0 ms
+I[16:42:46.289] --> textDocument/clangd.fileStatus
+I[16:42:46.431] <-- textDocument/didChange
+I[16:42:46.431] --> textDocument/clangd.fileStatus
+I[16:42:46.458] <-- textDocument/completion(92)
+I[16:42:46.465] Code complete: sema context DotMemberAccess, query scopes [] (AnyScope=true), expected type <none>
+I[16:42:46.466] Code complete: 1 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 1 returned.
+I[16:42:46.466] --> reply:textDocument/completion(92) 7 ms
+I[16:42:46.481] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:42:46.482] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 21 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:42:46.486] --> textDocument/clangd.fileStatus
+I[16:42:46.486] --> textDocument/clangd.fileStatus
+I[16:42:46.486] --> textDocument/clangd.fileStatus
+I[16:42:46.502] --> textDocument/publishDiagnostics
+I[16:42:46.503] --> textDocument/clangd.fileStatus
+I[16:42:46.577] <-- textDocument/didChange
+I[16:42:46.577] --> textDocument/clangd.fileStatus
+I[16:42:46.577] <-- textDocument/completion(93)
+I[16:42:46.581] Code complete: sema context DotMemberAccess, query scopes [] (AnyScope=true), expected type <none>
+I[16:42:46.581] Code complete: 1 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 1 returned.
+I[16:42:46.581] --> reply:textDocument/completion(93) 4 ms
+I[16:42:46.627] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:42:46.627] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 22 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:42:46.629] --> textDocument/clangd.fileStatus
+I[16:42:46.629] --> textDocument/clangd.fileStatus
+I[16:42:46.629] --> textDocument/clangd.fileStatus
+I[16:42:46.640] --> textDocument/publishDiagnostics
+I[16:42:46.640] --> textDocument/clangd.fileStatus
+I[16:42:46.724] <-- textDocument/semanticTokens/full/delta(94)
+I[16:42:46.725] --> reply:textDocument/semanticTokens/full/delta(94) 0 ms
+I[16:42:46.725] --> textDocument/clangd.fileStatus
+I[16:42:46.766] <-- textDocument/documentLink(95)
+I[16:42:46.766] --> reply:textDocument/documentLink(95) 0 ms
+I[16:42:46.766] --> textDocument/clangd.fileStatus
+I[16:42:46.907] <-- textDocument/codeAction(96)
+I[16:42:46.908] --> reply:textDocument/codeAction(96) 0 ms
+I[16:42:46.908] --> textDocument/clangd.fileStatus
+I[16:42:46.926] <-- textDocument/documentSymbol(97)
+I[16:42:46.927] --> reply:textDocument/documentSymbol(97) 1 ms
+I[16:42:46.927] --> textDocument/clangd.fileStatus
+I[16:42:47.399] <-- textDocument/didSave
+I[16:42:47.399] --> textDocument/clangd.fileStatus
+I[16:42:47.449] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:42:47.449] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 22 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:42:47.451] --> textDocument/clangd.fileStatus
+I[16:42:47.451] --> textDocument/clangd.fileStatus
+I[16:42:47.451] --> textDocument/clangd.fileStatus
+I[16:42:47.451] --> textDocument/clangd.fileStatus
+I[16:42:47.616] <-- textDocument/definition(98)
+I[16:42:47.617] --> reply:textDocument/definition(98) 0 ms
+I[16:42:47.617] --> textDocument/clangd.fileStatus
+I[16:42:47.679] <-- textDocument/hover(99)
+I[16:42:47.681] --> reply:textDocument/hover(99) 1 ms
+I[16:42:47.681] --> textDocument/clangd.fileStatus
+I[16:42:54.594] <-- textDocument/codeAction(100)
+I[16:42:54.594] --> reply:textDocument/codeAction(100) 0 ms
+I[16:42:54.595] --> textDocument/clangd.fileStatus
+I[16:42:56.879] <-- textDocument/hover(101)
+I[16:42:56.880] --> reply:textDocument/hover(101) 0 ms
+I[16:42:56.880] --> textDocument/clangd.fileStatus
+I[16:42:57.797] <-- textDocument/hover(102)
+I[16:42:57.798] --> reply:textDocument/hover(102) 0 ms
+I[16:42:57.798] --> textDocument/clangd.fileStatus
+I[16:42:58.097] <-- textDocument/hover(103)
+I[16:42:58.097] --> reply:textDocument/hover(103) 0 ms
+I[16:42:58.097] --> textDocument/clangd.fileStatus
+I[16:42:58.800] <-- textDocument/hover(104)
+I[16:42:58.801] --> reply:textDocument/hover(104) 0 ms
+I[16:42:58.801] --> textDocument/clangd.fileStatus
+I[16:42:59.502] <-- textDocument/hover(105)
+I[16:42:59.503] --> reply:textDocument/hover(105) 1 ms
+I[16:42:59.503] --> textDocument/clangd.fileStatus
+I[16:42:59.714] <-- textDocument/codeAction(106)
+I[16:42:59.714] --> reply:textDocument/codeAction(106) 0 ms
+I[16:42:59.714] --> textDocument/clangd.fileStatus
+I[16:43:00.329] <-- textDocument/hover(107)
+I[16:43:00.330] --> reply:textDocument/hover(107) 0 ms
+I[16:43:00.330] --> textDocument/clangd.fileStatus
+I[16:43:00.677] <-- textDocument/hover(108)
+I[16:43:00.678] --> reply:textDocument/hover(108) 0 ms
+I[16:43:00.678] --> textDocument/clangd.fileStatus
+I[16:43:01.177] <-- textDocument/hover(109)
+I[16:43:01.178] --> reply:textDocument/hover(109) 0 ms
+I[16:43:01.178] --> textDocument/clangd.fileStatus
+I[16:44:10.794] <-- textDocument/hover(110)
+I[16:44:10.795] --> reply:textDocument/hover(110) 1 ms
+I[16:44:10.795] --> textDocument/clangd.fileStatus
+I[16:44:10.995] <-- textDocument/hover(111)
+I[16:44:10.996] --> reply:textDocument/hover(111) 0 ms
+I[16:44:10.996] --> textDocument/clangd.fileStatus
+I[16:44:12.102] <-- textDocument/hover(112)
+I[16:44:12.103] --> reply:textDocument/hover(112) 0 ms
+I[16:44:12.103] --> textDocument/clangd.fileStatus
+I[16:44:12.301] <-- textDocument/codeAction(113)
+I[16:44:12.303] --> reply:textDocument/codeAction(113) 1 ms
+I[16:44:12.303] --> textDocument/clangd.fileStatus
+I[16:44:42.897] <-- textDocument/hover(114)
+I[16:44:42.898] --> reply:textDocument/hover(114) 1 ms
+I[16:44:42.898] --> textDocument/clangd.fileStatus
+I[16:44:44.725] <-- textDocument/hover(115)
+I[16:44:44.726] --> reply:textDocument/hover(115) 0 ms
+I[16:44:44.726] --> textDocument/clangd.fileStatus
+I[16:44:45.475] <-- textDocument/hover(116)
+I[16:44:45.475] --> reply:textDocument/hover(116) 0 ms
+I[16:44:45.475] --> textDocument/clangd.fileStatus
+I[16:44:45.915] <-- textDocument/hover(117)
+I[16:44:45.915] --> reply:textDocument/hover(117) 0 ms
+I[16:44:45.915] --> textDocument/clangd.fileStatus
+I[16:44:56.231] <-- textDocument/hover(118)
+I[16:44:56.233] --> reply:textDocument/hover(118) 2 ms
+I[16:44:56.234] --> textDocument/clangd.fileStatus
+I[16:44:56.433] <-- textDocument/hover(119)
+I[16:44:56.434] --> reply:textDocument/hover(119) 0 ms
+I[16:44:56.434] --> textDocument/clangd.fileStatus
+I[16:44:56.734] <-- textDocument/hover(120)
+I[16:44:56.735] --> reply:textDocument/hover(120) 0 ms
+I[16:44:56.735] --> textDocument/clangd.fileStatus
+I[16:44:57.130] <-- textDocument/hover(121)
+I[16:44:57.131] --> reply:textDocument/hover(121) 0 ms
+I[16:44:57.131] --> textDocument/clangd.fileStatus
+I[16:44:58.007] <-- textDocument/hover(122)
+I[16:44:58.007] --> reply:textDocument/hover(122) 0 ms
+I[16:44:58.007] --> textDocument/clangd.fileStatus
+I[16:44:58.408] <-- textDocument/hover(123)
+I[16:44:58.409] --> reply:textDocument/hover(123) 0 ms
+I[16:44:58.409] --> textDocument/clangd.fileStatus
+I[16:44:58.591] <-- textDocument/codeAction(124)
+I[16:44:58.591] --> reply:textDocument/codeAction(124) 0 ms
+I[16:44:58.591] --> textDocument/clangd.fileStatus
+I[16:45:00.574] <-- textDocument/hover(125)
+I[16:45:00.575] --> reply:textDocument/hover(125) 0 ms
+I[16:45:00.575] --> textDocument/clangd.fileStatus
+I[16:45:00.733] <-- textDocument/codeAction(126)
+I[16:45:00.733] --> reply:textDocument/codeAction(126) 0 ms
+I[16:45:00.733] --> textDocument/clangd.fileStatus
+I[16:45:02.984] <-- textDocument/hover(127)
+I[16:45:02.986] --> reply:textDocument/hover(127) 2 ms
+I[16:45:02.986] --> textDocument/clangd.fileStatus
+I[16:45:03.188] <-- textDocument/hover(128)
+I[16:45:03.190] --> reply:textDocument/hover(128) 1 ms
+I[16:45:03.190] --> textDocument/clangd.fileStatus
+I[16:45:03.568] <-- textDocument/hover(129)
+I[16:45:03.570] --> reply:textDocument/hover(129) 1 ms
+I[16:45:03.570] --> textDocument/clangd.fileStatus
+I[16:45:04.338] <-- textDocument/hover(130)
+I[16:45:04.341] --> reply:textDocument/hover(130) 2 ms
+I[16:45:04.341] --> textDocument/clangd.fileStatus
+I[16:45:04.512] <-- textDocument/codeAction(131)
+I[16:45:04.513] --> reply:textDocument/codeAction(131) 0 ms
+I[16:45:04.513] --> textDocument/clangd.fileStatus
+I[16:45:06.118] <-- textDocument/hover(132)
+I[16:45:06.120] --> reply:textDocument/hover(132) 1 ms
+I[16:45:06.120] --> textDocument/clangd.fileStatus
+I[16:45:06.303] <-- textDocument/codeAction(133)
+I[16:45:06.304] --> reply:textDocument/codeAction(133) 0 ms
+I[16:45:06.304] --> textDocument/clangd.fileStatus
+I[16:45:06.493] <-- textDocument/codeAction(134)
+I[16:45:06.493] --> reply:textDocument/codeAction(134) 0 ms
+I[16:45:06.494] --> textDocument/clangd.fileStatus
+I[16:45:06.644] <-- textDocument/hover(135)
+I[16:45:06.645] --> reply:textDocument/hover(135) 0 ms
+I[16:45:06.645] --> textDocument/clangd.fileStatus
+I[16:45:06.807] <-- textDocument/codeAction(136)
+I[16:45:06.807] --> reply:textDocument/codeAction(136) 0 ms
+I[16:45:06.807] --> textDocument/clangd.fileStatus
+I[16:45:10.536] <-- textDocument/hover(137)
+I[16:45:10.537] --> reply:textDocument/hover(137) 0 ms
+I[16:45:10.537] --> textDocument/clangd.fileStatus
+I[16:45:12.045] <-- textDocument/hover(138)
+I[16:45:12.046] --> reply:textDocument/hover(138) 0 ms
+I[16:45:12.046] --> textDocument/clangd.fileStatus
+I[16:45:12.719] <-- textDocument/hover(139)
+I[16:45:12.719] --> reply:textDocument/hover(139) 0 ms
+I[16:45:12.719] --> textDocument/clangd.fileStatus
+I[16:45:13.393] <-- textDocument/hover(140)
+I[16:45:13.393] --> reply:textDocument/hover(140) 0 ms
+I[16:45:13.393] --> textDocument/clangd.fileStatus
+I[16:45:13.595] <-- textDocument/hover(141)
+I[16:45:13.595] --> reply:textDocument/hover(141) 0 ms
+I[16:45:13.595] --> textDocument/clangd.fileStatus
+I[16:45:14.054] <-- textDocument/hover(142)
+I[16:45:14.056] --> reply:textDocument/hover(142) 2 ms
+I[16:45:14.056] --> textDocument/clangd.fileStatus
+I[16:45:14.234] <-- textDocument/hover(143)
+I[16:45:14.236] --> reply:textDocument/hover(143) 1 ms
+I[16:45:14.237] --> textDocument/clangd.fileStatus
+I[16:45:14.634] <-- textDocument/hover(144)
+I[16:45:14.634] --> reply:textDocument/hover(144) 0 ms
+I[16:45:14.635] --> textDocument/clangd.fileStatus
+I[16:45:14.987] <-- textDocument/hover(145)
+I[16:45:14.989] --> reply:textDocument/hover(145) 1 ms
+I[16:45:14.989] --> textDocument/clangd.fileStatus
+I[16:45:15.736] <-- textDocument/hover(146)
+I[16:45:15.737] --> reply:textDocument/hover(146) 0 ms
+I[16:45:15.737] --> textDocument/clangd.fileStatus
+I[16:45:15.949] <-- textDocument/hover(147)
+I[16:45:15.951] --> reply:textDocument/hover(147) 1 ms
+I[16:45:15.951] --> textDocument/clangd.fileStatus
+I[16:45:19.011] <-- textDocument/hover(148)
+I[16:45:19.013] --> reply:textDocument/hover(148) 2 ms
+I[16:45:19.013] --> textDocument/clangd.fileStatus
+I[16:46:56.144] <-- textDocument/hover(149)
+I[16:46:56.145] --> reply:textDocument/hover(149) 0 ms
+I[16:46:56.145] --> textDocument/clangd.fileStatus
+I[16:47:01.310] <-- textDocument/hover(150)
+I[16:47:01.311] --> reply:textDocument/hover(150) 0 ms
+I[16:47:01.311] --> textDocument/clangd.fileStatus
+I[16:47:53.403] <-- textDocument/hover(151)
+I[16:47:53.404] --> reply:textDocument/hover(151) 0 ms
+I[16:47:53.404] --> textDocument/clangd.fileStatus
+I[16:47:53.813] <-- textDocument/hover(152)
+I[16:47:53.813] --> reply:textDocument/hover(152) 0 ms
+I[16:47:53.813] --> textDocument/clangd.fileStatus
+I[16:47:56.417] <-- textDocument/hover(153)
+I[16:47:56.418] --> reply:textDocument/hover(153) 1 ms
+I[16:47:56.418] --> textDocument/clangd.fileStatus
+I[16:47:56.596] <-- textDocument/codeAction(154)
+I[16:47:56.596] --> reply:textDocument/codeAction(154) 0 ms
+I[16:47:56.596] --> textDocument/clangd.fileStatus
+I[16:48:08.887] <-- textDocument/hover(155)
+I[16:48:08.888] --> reply:textDocument/hover(155) 0 ms
+I[16:48:08.888] --> textDocument/clangd.fileStatus
+I[16:48:09.590] <-- textDocument/hover(156)
+I[16:48:09.590] --> reply:textDocument/hover(156) 0 ms
+I[16:48:09.590] --> textDocument/clangd.fileStatus
+I[16:48:09.687] <-- textDocument/documentHighlight(157)
+I[16:48:09.687] --> reply:textDocument/documentHighlight(157) 0 ms
+I[16:48:09.687] --> textDocument/clangd.fileStatus
+I[16:48:09.926] <-- textDocument/codeAction(158)
+I[16:48:09.927] --> reply:textDocument/codeAction(158) 0 ms
+I[16:48:09.927] --> textDocument/clangd.fileStatus
+I[16:48:10.116] <-- textDocument/hover(159)
+I[16:48:10.117] --> reply:textDocument/hover(159) 0 ms
+I[16:48:10.117] --> textDocument/clangd.fileStatus
+I[16:48:10.415] <-- textDocument/documentHighlight(160)
+I[16:48:10.415] --> reply:textDocument/documentHighlight(160) 0 ms
+I[16:48:10.415] --> textDocument/clangd.fileStatus
+I[16:48:10.672] <-- textDocument/codeAction(161)
+I[16:48:10.672] --> reply:textDocument/codeAction(161) 0 ms
+I[16:48:10.672] --> textDocument/clangd.fileStatus
+I[16:48:11.656] <-- textDocument/didChange
+I[16:48:11.656] --> textDocument/clangd.fileStatus
+I[16:48:11.707] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:48:11.707] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 23 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:48:11.714] --> textDocument/clangd.fileStatus
+I[16:48:11.714] --> textDocument/clangd.fileStatus
+I[16:48:11.714] --> textDocument/clangd.fileStatus
+I[16:48:11.731] --> textDocument/publishDiagnostics
+I[16:48:11.731] --> textDocument/clangd.fileStatus
+I[16:48:11.936] <-- textDocument/semanticTokens/full/delta(162)
+I[16:48:11.937] --> reply:textDocument/semanticTokens/full/delta(162) 0 ms
+I[16:48:11.937] --> textDocument/clangd.fileStatus
+I[16:48:11.994] <-- textDocument/documentSymbol(163)
+I[16:48:11.995] --> reply:textDocument/documentSymbol(163) 1 ms
+I[16:48:11.995] --> textDocument/clangd.fileStatus
+I[16:48:11.996] <-- textDocument/codeAction(164)
+I[16:48:11.996] --> reply:textDocument/codeAction(164) 0 ms
+I[16:48:11.996] --> textDocument/clangd.fileStatus
+I[16:48:12.136] <-- textDocument/didChange
+I[16:48:12.136] --> textDocument/clangd.fileStatus
+I[16:48:12.186] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:48:12.187] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 24 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:48:12.191] --> textDocument/clangd.fileStatus
+I[16:48:12.191] --> textDocument/clangd.fileStatus
+I[16:48:12.192] --> textDocument/clangd.fileStatus
+I[16:48:12.219] --> textDocument/publishDiagnostics
+I[16:48:12.220] --> textDocument/clangd.fileStatus
+I[16:48:12.411] <-- textDocument/semanticTokens/full/delta(165)
+I[16:48:12.412] --> reply:textDocument/semanticTokens/full/delta(165) 0 ms
+I[16:48:12.412] --> textDocument/clangd.fileStatus
+I[16:48:12.462] <-- textDocument/documentSymbol(166)
+I[16:48:12.463] --> reply:textDocument/documentSymbol(166) 0 ms
+I[16:48:12.464] --> textDocument/clangd.fileStatus
+I[16:48:12.490] <-- textDocument/codeAction(167)
+I[16:48:12.491] --> reply:textDocument/codeAction(167) 1 ms
+I[16:48:12.491] --> textDocument/clangd.fileStatus
+I[16:48:12.652] <-- textDocument/documentLink(168)
+I[16:48:12.652] --> reply:textDocument/documentLink(168) 0 ms
+I[16:48:12.653] --> textDocument/clangd.fileStatus
+I[16:48:12.914] <-- textDocument/documentHighlight(169)
+I[16:48:12.915] --> reply:textDocument/documentHighlight(169) 1 ms
+I[16:48:12.915] --> textDocument/clangd.fileStatus
+I[16:48:13.159] <-- textDocument/codeAction(170)
+I[16:48:13.160] --> reply:textDocument/codeAction(170) 0 ms
+I[16:48:13.160] --> textDocument/clangd.fileStatus
+I[16:48:13.678] <-- textDocument/documentHighlight(171)
+I[16:48:13.679] --> reply:textDocument/documentHighlight(171) 0 ms
+I[16:48:13.679] --> textDocument/clangd.fileStatus
+I[16:48:14.005] <-- textDocument/codeAction(172)
+I[16:48:14.005] --> reply:textDocument/codeAction(172) 0 ms
+I[16:48:14.006] --> textDocument/clangd.fileStatus
+I[16:48:14.435] <-- textDocument/codeAction(173)
+I[16:48:14.435] --> reply:textDocument/codeAction(173) 0 ms
+I[16:48:14.435] --> textDocument/clangd.fileStatus
+I[16:48:14.649] <-- textDocument/didChange
+I[16:48:14.650] --> textDocument/clangd.fileStatus
+I[16:48:14.700] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:48:14.700] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 25 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:48:14.701] --> textDocument/clangd.fileStatus
+I[16:48:14.702] --> textDocument/clangd.fileStatus
+I[16:48:14.702] --> textDocument/clangd.fileStatus
+I[16:48:14.709] --> textDocument/publishDiagnostics
+I[16:48:14.709] --> textDocument/clangd.fileStatus
+I[16:48:14.869] <-- textDocument/didChange
+I[16:48:14.870] --> textDocument/clangd.fileStatus
+I[16:48:14.919] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:48:14.920] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 26 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:48:14.921] <-- textDocument/semanticTokens/full/delta(174)
+I[16:48:14.923] --> textDocument/clangd.fileStatus
+I[16:48:14.943] --> reply:textDocument/semanticTokens/full/delta(174) 22 ms
+I[16:48:14.944] Skipping rebuild of the AST for /home/rhythmrx9/code/cFiles/samp..c, inputs are the same.
+I[16:48:14.945] --> textDocument/publishDiagnostics
+I[16:48:14.946] --> textDocument/clangd.fileStatus
+I[16:48:14.989] <-- textDocument/didChange
+I[16:48:14.990] --> textDocument/clangd.fileStatus
+I[16:48:15.040] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:48:15.040] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 27 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:48:15.042] --> textDocument/clangd.fileStatus
+I[16:48:15.042] --> textDocument/clangd.fileStatus
+I[16:48:15.042] --> textDocument/clangd.fileStatus
+I[16:48:15.052] --> textDocument/publishDiagnostics
+I[16:48:15.053] --> textDocument/clangd.fileStatus
+I[16:48:15.137] <-- textDocument/didChange
+I[16:48:15.137] --> textDocument/clangd.fileStatus
+I[16:48:15.187] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:48:15.188] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 28 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:48:15.192] --> textDocument/clangd.fileStatus
+I[16:48:15.193] --> textDocument/clangd.fileStatus
+I[16:48:15.193] --> textDocument/clangd.fileStatus
+I[16:48:15.219] --> textDocument/publishDiagnostics
+I[16:48:15.220] --> textDocument/clangd.fileStatus
+I[16:48:15.291] <-- textDocument/didChange
+I[16:48:15.291] --> textDocument/clangd.fileStatus
+I[16:48:15.293] <-- textDocument/semanticTokens/full/delta(175)
+I[16:48:15.293] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:48:15.293] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 29 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:48:15.299] --> textDocument/clangd.fileStatus
+I[16:48:15.333] --> textDocument/publishDiagnostics
+I[16:48:15.334] --> reply:textDocument/semanticTokens/full/delta(175) 41 ms
+I[16:48:15.334] --> textDocument/clangd.fileStatus
+I[16:48:15.597] <-- textDocument/codeAction(176)
+I[16:48:15.598] --> reply:textDocument/codeAction(176) 0 ms
+I[16:48:15.598] --> textDocument/clangd.fileStatus
+I[16:48:15.625] <-- textDocument/documentLink(177)
+I[16:48:15.625] --> reply:textDocument/documentLink(177) 0 ms
+I[16:48:15.626] --> textDocument/clangd.fileStatus
+I[16:48:15.637] <-- textDocument/documentSymbol(178)
+I[16:48:15.638] --> reply:textDocument/documentSymbol(178) 0 ms
+I[16:48:15.639] --> textDocument/clangd.fileStatus
+I[16:48:17.355] <-- textDocument/didChange
+I[16:48:17.355] --> textDocument/clangd.fileStatus
+I[16:48:17.405] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:48:17.405] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 30 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:48:17.411] --> textDocument/clangd.fileStatus
+I[16:48:17.437] --> textDocument/publishDiagnostics
+I[16:48:17.437] --> textDocument/clangd.fileStatus
+I[16:48:17.619] <-- textDocument/didChange
+I[16:48:17.626] --> textDocument/clangd.fileStatus
+I[16:48:17.664] <-- textDocument/semanticTokens/full/delta(179)
+I[16:48:17.664] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:48:17.664] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 31 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:48:17.666] --> textDocument/clangd.fileStatus
+I[16:48:17.675] --> reply:textDocument/semanticTokens/full/delta(179) 11 ms
+I[16:48:17.675] Skipping rebuild of the AST for /home/rhythmrx9/code/cFiles/samp..c, inputs are the same.
+I[16:48:17.676] --> textDocument/publishDiagnostics
+I[16:48:17.676] --> textDocument/clangd.fileStatus
+I[16:48:17.940] <-- textDocument/documentSymbol(180)
+I[16:48:17.941] --> reply:textDocument/documentSymbol(180) 0 ms
+I[16:48:17.942] --> textDocument/clangd.fileStatus
+I[16:48:17.946] <-- textDocument/codeAction(181)
+I[16:48:17.947] --> reply:textDocument/codeAction(181) 0 ms
+I[16:48:17.947] --> textDocument/clangd.fileStatus
+I[16:48:18.353] <-- textDocument/documentLink(182)
+I[16:48:18.353] --> reply:textDocument/documentLink(182) 0 ms
+I[16:48:18.354] --> textDocument/clangd.fileStatus
+I[16:48:18.664] <-- textDocument/didChange
+I[16:48:18.665] --> textDocument/clangd.fileStatus
+I[16:48:18.715] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:48:18.715] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 32 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:48:18.717] --> textDocument/clangd.fileStatus
+I[16:48:18.717] --> textDocument/clangd.fileStatus
+I[16:48:18.717] --> textDocument/clangd.fileStatus
+I[16:48:18.726] --> textDocument/publishDiagnostics
+I[16:48:18.726] --> textDocument/clangd.fileStatus
+I[16:48:18.809] <-- textDocument/didChange
+I[16:48:18.809] --> textDocument/clangd.fileStatus
+I[16:48:18.859] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:48:18.859] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 33 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:48:18.861] --> textDocument/clangd.fileStatus
+I[16:48:18.861] --> textDocument/clangd.fileStatus
+I[16:48:18.861] --> textDocument/clangd.fileStatus
+I[16:48:18.868] --> textDocument/publishDiagnostics
+I[16:48:18.868] --> textDocument/clangd.fileStatus
+I[16:48:18.948] <-- textDocument/semanticTokens/full/delta(183)
+I[16:48:18.949] --> reply:textDocument/semanticTokens/full/delta(183) 0 ms
+I[16:48:18.949] --> textDocument/clangd.fileStatus
+I[16:48:18.976] <-- textDocument/didChange
+I[16:48:18.976] --> textDocument/clangd.fileStatus
+I[16:48:19.026] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:48:19.026] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 34 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:48:19.029] --> textDocument/clangd.fileStatus
+I[16:48:19.029] --> textDocument/clangd.fileStatus
+I[16:48:19.030] --> textDocument/clangd.fileStatus
+I[16:48:19.041] --> textDocument/publishDiagnostics
+I[16:48:19.041] --> textDocument/clangd.fileStatus
+I[16:48:19.142] <-- textDocument/didChange
+I[16:48:19.142] --> textDocument/clangd.fileStatus
+I[16:48:19.193] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:48:19.193] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 35 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:48:19.196] --> textDocument/clangd.fileStatus
+I[16:48:19.196] --> textDocument/clangd.fileStatus
+I[16:48:19.196] --> textDocument/clangd.fileStatus
+I[16:48:19.210] --> textDocument/publishDiagnostics
+I[16:48:19.210] --> textDocument/clangd.fileStatus
+I[16:48:19.271] <-- textDocument/semanticTokens/full/delta(184)
+I[16:48:19.272] --> reply:textDocument/semanticTokens/full/delta(184) 0 ms
+I[16:48:19.272] --> textDocument/clangd.fileStatus
+I[16:48:19.476] <-- textDocument/codeAction(185)
+I[16:48:19.476] --> reply:textDocument/codeAction(185) 0 ms
+I[16:48:19.476] --> textDocument/clangd.fileStatus
+I[16:48:19.485] <-- textDocument/documentSymbol(186)
+I[16:48:19.485] --> reply:textDocument/documentSymbol(186) 0 ms
+I[16:48:19.486] --> textDocument/clangd.fileStatus
+I[16:48:19.650] <-- textDocument/documentLink(187)
+I[16:48:19.651] --> reply:textDocument/documentLink(187) 0 ms
+I[16:48:19.651] --> textDocument/clangd.fileStatus
+I[16:48:19.693] <-- textDocument/documentHighlight(188)
+I[16:48:19.695] --> reply:textDocument/documentHighlight(188) 1 ms
+I[16:48:19.695] --> textDocument/clangd.fileStatus
+I[16:48:19.955] <-- textDocument/codeAction(189)
+I[16:48:19.956] --> reply:textDocument/codeAction(189) 0 ms
+I[16:48:19.956] --> textDocument/clangd.fileStatus
+I[16:48:20.741] <-- textDocument/didChange
+I[16:48:20.742] --> textDocument/clangd.fileStatus
+I[16:48:20.792] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:48:20.793] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 36 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:48:20.798] --> textDocument/clangd.fileStatus
+I[16:48:20.799] --> textDocument/clangd.fileStatus
+I[16:48:20.800] --> textDocument/clangd.fileStatus
+I[16:48:20.826] --> textDocument/publishDiagnostics
+I[16:48:20.827] --> textDocument/clangd.fileStatus
+I[16:48:21.017] <-- textDocument/semanticTokens/full/delta(190)
+I[16:48:21.018] --> reply:textDocument/semanticTokens/full/delta(190) 0 ms
+I[16:48:21.018] --> textDocument/clangd.fileStatus
+I[16:48:21.069] <-- textDocument/documentSymbol(191)
+I[16:48:21.069] --> reply:textDocument/documentSymbol(191) 0 ms
+I[16:48:21.069] --> textDocument/clangd.fileStatus
+I[16:48:21.099] <-- textDocument/codeAction(192)
+I[16:48:21.099] --> reply:textDocument/codeAction(192) 0 ms
+I[16:48:21.099] --> textDocument/clangd.fileStatus
+I[16:48:21.465] <-- textDocument/didChange
+I[16:48:21.465] --> textDocument/clangd.fileStatus
+I[16:48:21.516] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:48:21.516] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 37 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:48:21.521] --> textDocument/clangd.fileStatus
+I[16:48:21.521] --> textDocument/clangd.fileStatus
+I[16:48:21.521] --> textDocument/clangd.fileStatus
+I[16:48:21.543] --> textDocument/publishDiagnostics
+I[16:48:21.543] --> textDocument/clangd.fileStatus
+I[16:48:21.673] <-- textDocument/documentHighlight(193)
+I[16:48:21.674] --> reply:textDocument/documentHighlight(193) 1 ms
+I[16:48:21.674] --> textDocument/clangd.fileStatus
+I[16:48:21.719] <-- textDocument/documentLink(194)
+I[16:48:21.720] --> reply:textDocument/documentLink(194) 0 ms
+I[16:48:21.720] --> textDocument/clangd.fileStatus
+I[16:48:21.759] <-- textDocument/semanticTokens/full/delta(195)
+I[16:48:21.760] --> reply:textDocument/semanticTokens/full/delta(195) 0 ms
+I[16:48:21.760] --> textDocument/clangd.fileStatus
+I[16:48:21.810] <-- textDocument/documentSymbol(196)
+I[16:48:21.811] --> reply:textDocument/documentSymbol(196) 0 ms
+I[16:48:21.811] --> textDocument/clangd.fileStatus
+I[16:48:21.935] <-- textDocument/codeAction(197)
+I[16:48:21.935] --> reply:textDocument/codeAction(197) 0 ms
+I[16:48:21.935] --> textDocument/clangd.fileStatus
+I[16:48:22.496] <-- textDocument/codeAction(198)
+I[16:48:22.496] --> reply:textDocument/codeAction(198) 0 ms
+I[16:48:22.496] --> textDocument/clangd.fileStatus
+I[16:48:22.537] <-- textDocument/didChange
+I[16:48:22.537] --> textDocument/clangd.fileStatus
+I[16:48:22.587] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:48:22.587] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 38 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:48:22.589] --> textDocument/clangd.fileStatus
+I[16:48:22.589] --> textDocument/clangd.fileStatus
+I[16:48:22.589] --> textDocument/clangd.fileStatus
+I[16:48:22.596] --> textDocument/publishDiagnostics
+I[16:48:22.596] --> textDocument/clangd.fileStatus
+I[16:48:22.618] <-- textDocument/documentHighlight(199)
+I[16:48:22.618] --> reply:textDocument/documentHighlight(199) 0 ms
+I[16:48:22.618] --> textDocument/clangd.fileStatus
+I[16:48:22.820] <-- textDocument/semanticTokens/full/delta(200)
+I[16:48:22.821] --> reply:textDocument/semanticTokens/full/delta(200) 0 ms
+I[16:48:22.821] --> textDocument/clangd.fileStatus
+I[16:48:22.871] <-- textDocument/documentSymbol(201)
+I[16:48:22.872] --> reply:textDocument/documentSymbol(201) 0 ms
+I[16:48:22.873] --> textDocument/clangd.fileStatus
+I[16:48:23.552] <-- textDocument/documentLink(202)
+I[16:48:23.552] --> reply:textDocument/documentLink(202) 0 ms
+I[16:48:23.553] --> textDocument/clangd.fileStatus
+I[16:48:23.696] <-- textDocument/documentHighlight(203)
+I[16:48:23.696] --> reply:textDocument/documentHighlight(203) 0 ms
+I[16:48:23.696] --> textDocument/clangd.fileStatus
+I[16:48:23.933] <-- textDocument/codeAction(204)
+I[16:48:23.933] --> reply:textDocument/codeAction(204) 0 ms
+I[16:48:23.934] --> textDocument/clangd.fileStatus
+I[16:48:24.422] <-- textDocument/didChange
+I[16:48:24.422] --> textDocument/clangd.fileStatus
+I[16:48:24.472] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:48:24.473] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 39 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:48:24.474] --> textDocument/clangd.fileStatus
+I[16:48:24.474] --> textDocument/clangd.fileStatus
+I[16:48:24.474] --> textDocument/clangd.fileStatus
+I[16:48:24.483] --> textDocument/publishDiagnostics
+I[16:48:24.484] --> textDocument/clangd.fileStatus
+I[16:48:24.718] <-- textDocument/semanticTokens/full/delta(205)
+I[16:48:24.719] --> reply:textDocument/semanticTokens/full/delta(205) 1 ms
+I[16:48:24.719] --> textDocument/clangd.fileStatus
+I[16:48:24.743] <-- textDocument/codeAction(206)
+I[16:48:24.744] --> reply:textDocument/codeAction(206) 1 ms
+I[16:48:24.745] --> textDocument/clangd.fileStatus
+I[16:48:24.769] <-- textDocument/documentSymbol(207)
+I[16:48:24.770] --> reply:textDocument/documentSymbol(207) 1 ms
+I[16:48:24.770] --> textDocument/clangd.fileStatus
+I[16:48:24.930] <-- textDocument/documentHighlight(208)
+I[16:48:24.931] --> reply:textDocument/documentHighlight(208) 1 ms
+I[16:48:24.931] --> textDocument/clangd.fileStatus
+I[16:48:25.421] <-- textDocument/documentLink(209)
+I[16:48:25.421] --> reply:textDocument/documentLink(209) 0 ms
+I[16:48:25.421] --> textDocument/clangd.fileStatus
+I[16:48:25.549] <-- textDocument/codeAction(210)
+I[16:48:25.549] --> reply:textDocument/codeAction(210) 0 ms
+I[16:48:25.549] --> textDocument/clangd.fileStatus
+I[16:48:25.915] <-- textDocument/didChange
+I[16:48:25.916] --> textDocument/clangd.fileStatus
+I[16:48:25.966] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:48:25.966] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 40 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:48:25.968] --> textDocument/clangd.fileStatus
+I[16:48:25.968] --> textDocument/clangd.fileStatus
+I[16:48:25.968] --> textDocument/clangd.fileStatus
+I[16:48:25.978] --> textDocument/publishDiagnostics
+I[16:48:25.978] --> textDocument/clangd.fileStatus
+I[16:48:26.207] <-- textDocument/semanticTokens/full/delta(211)
+I[16:48:26.208] --> reply:textDocument/semanticTokens/full/delta(211) 0 ms
+I[16:48:26.208] --> textDocument/clangd.fileStatus
+I[16:48:26.238] <-- textDocument/codeAction(212)
+I[16:48:26.238] --> reply:textDocument/codeAction(212) 0 ms
+I[16:48:26.238] --> textDocument/clangd.fileStatus
+I[16:48:26.258] <-- textDocument/documentSymbol(213)
+I[16:48:26.258] --> reply:textDocument/documentSymbol(213) 0 ms
+I[16:48:26.258] --> textDocument/clangd.fileStatus
+I[16:48:26.913] <-- textDocument/documentLink(214)
+I[16:48:26.913] --> reply:textDocument/documentLink(214) 0 ms
+I[16:48:26.913] --> textDocument/clangd.fileStatus
+I[16:48:28.760] <-- textDocument/didSave
+I[16:48:28.760] --> textDocument/clangd.fileStatus
+I[16:48:28.810] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:48:28.810] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 40 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:48:28.811] --> textDocument/clangd.fileStatus
+I[16:48:28.812] --> textDocument/clangd.fileStatus
+I[16:48:28.812] --> textDocument/clangd.fileStatus
+I[16:48:28.812] --> textDocument/clangd.fileStatus
+I[16:48:30.823] <-- textDocument/hover(215)
+I[16:48:30.826] --> reply:textDocument/hover(215) 2 ms
+I[16:48:30.826] --> textDocument/clangd.fileStatus
+I[16:48:31.919] <-- textDocument/hover(216)
+I[16:48:31.921] --> reply:textDocument/hover(216) 1 ms
+I[16:48:31.921] --> textDocument/clangd.fileStatus
+I[16:48:32.121] <-- textDocument/hover(217)
+I[16:48:32.122] --> reply:textDocument/hover(217) 1 ms
+I[16:48:32.122] --> textDocument/clangd.fileStatus
+I[16:48:32.278] <-- textDocument/codeAction(218)
+I[16:48:32.278] --> reply:textDocument/codeAction(218) 0 ms
+I[16:48:32.278] --> textDocument/clangd.fileStatus
+I[16:48:36.945] <-- textDocument/hover(219)
+I[16:48:36.949] --> reply:textDocument/hover(219) 3 ms
+I[16:48:36.949] --> textDocument/clangd.fileStatus
+I[16:48:37.946] <-- textDocument/didChange
+I[16:48:37.947] --> textDocument/clangd.fileStatus
+I[16:48:37.997] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:48:37.997] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 41 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:48:37.999] --> textDocument/clangd.fileStatus
+I[16:48:37.999] --> textDocument/clangd.fileStatus
+I[16:48:37.999] --> textDocument/clangd.fileStatus
+I[16:48:38.006] --> textDocument/publishDiagnostics
+I[16:48:38.006] --> textDocument/clangd.fileStatus
+I[16:48:38.105] <-- textDocument/didChange
+I[16:48:38.106] --> textDocument/clangd.fileStatus
+I[16:48:38.156] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:48:38.156] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 42 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:48:38.158] --> textDocument/clangd.fileStatus
+I[16:48:38.158] --> textDocument/clangd.fileStatus
+I[16:48:38.158] --> textDocument/clangd.fileStatus
+I[16:48:38.173] --> textDocument/publishDiagnostics
+I[16:48:38.174] --> textDocument/clangd.fileStatus
+I[16:48:38.236] <-- textDocument/semanticTokens/full/delta(220)
+I[16:48:38.236] --> reply:textDocument/semanticTokens/full/delta(220) 0 ms
+I[16:48:38.236] --> textDocument/clangd.fileStatus
+I[16:48:38.437] <-- textDocument/codeAction(221)
+I[16:48:38.437] --> reply:textDocument/codeAction(221) 0 ms
+I[16:48:38.437] --> textDocument/clangd.fileStatus
+I[16:48:38.451] <-- textDocument/documentSymbol(222)
+I[16:48:38.452] --> reply:textDocument/documentSymbol(222) 0 ms
+I[16:48:38.452] --> textDocument/clangd.fileStatus
+I[16:48:38.941] <-- textDocument/documentLink(223)
+I[16:48:38.941] --> reply:textDocument/documentLink(223) 0 ms
+I[16:48:38.941] --> textDocument/clangd.fileStatus
+I[16:48:39.546] <-- textDocument/didSave
+I[16:48:39.546] --> textDocument/clangd.fileStatus
+I[16:48:39.596] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:48:39.596] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 42 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:48:39.603] --> textDocument/clangd.fileStatus
+I[16:48:39.604] --> textDocument/clangd.fileStatus
+I[16:48:41.166] <-- textDocument/hover(224)
+I[16:48:41.166] --> reply:textDocument/hover(224) 0 ms
+I[16:48:41.167] --> textDocument/clangd.fileStatus
+I[16:48:42.084] <-- textDocument/hover(225)
+I[16:48:42.086] --> reply:textDocument/hover(225) 2 ms
+I[16:48:42.087] --> textDocument/clangd.fileStatus
+I[16:48:42.384] <-- textDocument/hover(226)
+I[16:48:42.386] --> reply:textDocument/hover(226) 1 ms
+I[16:48:42.386] --> textDocument/clangd.fileStatus
+I[16:48:48.092] <-- textDocument/hover(227)
+I[16:48:48.095] --> reply:textDocument/hover(227) 2 ms
+I[16:48:48.095] --> textDocument/clangd.fileStatus
+I[16:48:48.268] <-- textDocument/codeAction(228)
+I[16:48:48.268] --> reply:textDocument/codeAction(228) 0 ms
+I[16:48:48.269] --> textDocument/clangd.fileStatus
+I[16:48:48.448] <-- textDocument/codeAction(229)
+I[16:48:48.449] --> reply:textDocument/codeAction(229) 0 ms
+I[16:48:48.449] --> textDocument/clangd.fileStatus
+I[16:48:48.599] <-- textDocument/hover(230)
+I[16:48:48.600] --> reply:textDocument/hover(230) 0 ms
+I[16:48:48.600] --> textDocument/clangd.fileStatus
+I[16:48:48.757] <-- textDocument/codeAction(231)
+I[16:48:48.758] --> reply:textDocument/codeAction(231) 0 ms
+I[16:48:48.758] --> textDocument/clangd.fileStatus
+I[16:48:56.072] <-- textDocument/hover(232)
+I[16:48:56.074] --> reply:textDocument/hover(232) 2 ms
+I[16:48:56.074] --> textDocument/clangd.fileStatus
+I[16:48:56.273] <-- textDocument/hover(233)
+I[16:48:56.274] --> reply:textDocument/hover(233) 1 ms
+I[16:48:56.275] --> textDocument/clangd.fileStatus
+I[16:48:56.464] <-- textDocument/documentHighlight(234)
+I[16:48:56.464] --> reply:textDocument/documentHighlight(234) 0 ms
+I[16:48:56.464] --> textDocument/clangd.fileStatus
+I[16:48:56.704] <-- textDocument/codeAction(235)
+I[16:48:56.705] --> reply:textDocument/codeAction(235) 0 ms
+I[16:48:56.705] --> textDocument/clangd.fileStatus
+I[16:48:56.821] <-- textDocument/hover(236)
+I[16:48:56.822] --> reply:textDocument/hover(236) 1 ms
+I[16:48:56.822] --> textDocument/clangd.fileStatus
+I[16:48:57.121] <-- textDocument/hover(237)
+I[16:48:57.121] --> reply:textDocument/hover(237) 0 ms
+I[16:48:57.121] --> textDocument/clangd.fileStatus
+I[16:48:58.295] <-- textDocument/didChange
+I[16:48:58.295] --> textDocument/clangd.fileStatus
+I[16:48:58.345] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:48:58.345] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 43 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:48:58.347] --> textDocument/clangd.fileStatus
+I[16:48:58.347] --> textDocument/clangd.fileStatus
+I[16:48:58.347] --> textDocument/clangd.fileStatus
+I[16:48:58.354] --> textDocument/publishDiagnostics
+I[16:48:58.354] --> textDocument/clangd.fileStatus
+I[16:48:58.469] <-- textDocument/didChange
+I[16:48:58.469] --> textDocument/clangd.fileStatus
+I[16:48:58.519] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:48:58.520] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 44 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:48:58.528] --> textDocument/clangd.fileStatus
+I[16:48:58.528] --> textDocument/clangd.fileStatus
+I[16:48:58.529] --> textDocument/clangd.fileStatus
+I[16:48:58.550] --> textDocument/publishDiagnostics
+I[16:48:58.550] --> textDocument/clangd.fileStatus
+I[16:48:58.571] <-- textDocument/semanticTokens/full/delta(238)
+I[16:48:58.571] --> reply:textDocument/semanticTokens/full/delta(238) 0 ms
+I[16:48:58.571] --> textDocument/clangd.fileStatus
+I[16:48:58.816] <-- textDocument/codeAction(239)
+I[16:48:58.816] --> reply:textDocument/codeAction(239) 0 ms
+I[16:48:58.817] --> textDocument/clangd.fileStatus
+I[16:48:58.817] <-- textDocument/documentSymbol(240)
+I[16:48:58.819] --> reply:textDocument/documentSymbol(240) 1 ms
+I[16:48:58.819] --> textDocument/clangd.fileStatus
+I[16:48:59.271] <-- textDocument/documentLink(241)
+I[16:48:59.271] --> reply:textDocument/documentLink(241) 0 ms
+I[16:48:59.271] --> textDocument/clangd.fileStatus
+I[16:48:59.617] <-- textDocument/documentHighlight(242)
+I[16:48:59.617] --> reply:textDocument/documentHighlight(242) 0 ms
+I[16:48:59.617] --> textDocument/clangd.fileStatus
+I[16:48:59.858] <-- textDocument/codeAction(243)
+I[16:48:59.859] --> reply:textDocument/codeAction(243) 0 ms
+I[16:48:59.859] --> textDocument/clangd.fileStatus
+I[16:49:01.072] <-- textDocument/codeAction(244)
+I[16:49:01.073] --> reply:textDocument/codeAction(244) 0 ms
+I[16:49:01.073] --> textDocument/clangd.fileStatus
+I[16:49:01.522] <-- textDocument/didChange
+I[16:49:01.522] --> textDocument/clangd.fileStatus
+I[16:49:01.572] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:49:01.573] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 45 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:49:01.577] --> textDocument/clangd.fileStatus
+I[16:49:01.577] --> textDocument/clangd.fileStatus
+I[16:49:01.578] --> textDocument/clangd.fileStatus
+I[16:49:01.601] --> textDocument/publishDiagnostics
+I[16:49:01.602] --> textDocument/clangd.fileStatus
+I[16:49:01.760] <-- textDocument/didChange
+I[16:49:01.760] --> textDocument/clangd.fileStatus
+I[16:49:01.804] <-- textDocument/semanticTokens/full/delta(245)
+I[16:49:01.804] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:49:01.805] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 46 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:49:01.812] --> textDocument/clangd.fileStatus
+I[16:49:01.833] --> textDocument/publishDiagnostics
+I[16:49:01.833] --> reply:textDocument/semanticTokens/full/delta(245) 29 ms
+I[16:49:01.834] --> textDocument/clangd.fileStatus
+I[16:49:02.093] <-- textDocument/codeAction(246)
+I[16:49:02.094] --> reply:textDocument/codeAction(246) 0 ms
+I[16:49:02.094] --> textDocument/clangd.fileStatus
+I[16:49:02.095] <-- textDocument/documentSymbol(247)
+I[16:49:02.096] --> reply:textDocument/documentSymbol(247) 0 ms
+I[16:49:02.096] --> textDocument/clangd.fileStatus
+I[16:49:02.504] <-- textDocument/documentLink(248)
+I[16:49:02.505] --> reply:textDocument/documentLink(248) 0 ms
+I[16:49:02.505] --> textDocument/clangd.fileStatus
+I[16:49:02.781] <-- textDocument/didSave
+I[16:49:02.782] --> textDocument/clangd.fileStatus
+I[16:49:02.832] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:49:02.832] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 46 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:49:02.834] --> textDocument/clangd.fileStatus
+I[16:49:02.834] --> textDocument/clangd.fileStatus
+I[16:49:02.835] --> textDocument/clangd.fileStatus
+I[16:49:02.835] --> textDocument/clangd.fileStatus
+I[16:49:03.909] <-- textDocument/hover(249)
+I[16:49:03.910] --> reply:textDocument/hover(249) 0 ms
+I[16:49:03.910] --> textDocument/clangd.fileStatus
+I[16:49:04.350] <-- textDocument/hover(250)
+I[16:49:04.352] --> reply:textDocument/hover(250) 1 ms
+I[16:49:04.352] --> textDocument/clangd.fileStatus
+I[16:49:05.258] <-- textDocument/hover(251)
+I[16:49:05.260] --> reply:textDocument/hover(251) 2 ms
+I[16:49:05.260] --> textDocument/clangd.fileStatus
+I[16:49:05.483] <-- textDocument/hover(252)
+I[16:49:05.485] --> reply:textDocument/hover(252) 1 ms
+I[16:49:05.485] --> textDocument/clangd.fileStatus
+I[16:49:05.676] <-- textDocument/codeAction(253)
+I[16:49:05.676] --> reply:textDocument/codeAction(253) 0 ms
+I[16:49:05.677] --> textDocument/clangd.fileStatus
+I[16:49:08.068] <-- textDocument/hover(254)
+I[16:49:08.069] --> reply:textDocument/hover(254) 0 ms
+I[16:49:08.069] --> textDocument/clangd.fileStatus
+I[16:49:08.887] <-- textDocument/hover(255)
+I[16:49:08.889] --> reply:textDocument/hover(255) 1 ms
+I[16:49:08.889] --> textDocument/clangd.fileStatus
+I[16:49:10.292] <-- textDocument/hover(256)
+I[16:49:10.293] --> reply:textDocument/hover(256) 0 ms
+I[16:49:10.293] --> textDocument/clangd.fileStatus
+I[16:49:11.300] <-- textDocument/hover(257)
+I[16:49:11.302] --> reply:textDocument/hover(257) 1 ms
+I[16:49:11.302] --> textDocument/clangd.fileStatus
+I[16:49:12.289] <-- textDocument/hover(258)
+I[16:49:12.290] --> reply:textDocument/hover(258) 0 ms
+I[16:49:12.290] --> textDocument/clangd.fileStatus
+I[16:49:12.589] <-- textDocument/hover(259)
+I[16:49:12.591] --> reply:textDocument/hover(259) 2 ms
+I[16:49:12.592] --> textDocument/clangd.fileStatus
+I[16:49:13.707] <-- textDocument/hover(260)
+I[16:49:13.709] --> reply:textDocument/hover(260) 1 ms
+I[16:49:13.709] --> textDocument/clangd.fileStatus
+I[16:49:14.268] <-- textDocument/hover(261)
+I[16:49:14.270] --> reply:textDocument/hover(261) 1 ms
+I[16:49:14.270] --> textDocument/clangd.fileStatus
+I[16:49:15.320] <-- textDocument/hover(262)
+I[16:49:15.321] --> reply:textDocument/hover(262) 0 ms
+I[16:49:15.321] --> textDocument/clangd.fileStatus
+I[16:49:15.581] <-- textDocument/hover(263)
+I[16:49:15.583] --> reply:textDocument/hover(263) 1 ms
+I[16:49:15.583] --> textDocument/clangd.fileStatus
+I[16:49:16.080] <-- textDocument/hover(264)
+I[16:49:16.082] --> reply:textDocument/hover(264) 2 ms
+I[16:49:16.082] --> textDocument/clangd.fileStatus
+I[16:49:16.380] <-- textDocument/hover(265)
+I[16:49:16.382] --> reply:textDocument/hover(265) 1 ms
+I[16:49:16.382] --> textDocument/clangd.fileStatus
+I[16:49:16.651] <-- textDocument/hover(266)
+I[16:49:16.653] --> reply:textDocument/hover(266) 1 ms
+I[16:49:16.653] --> textDocument/clangd.fileStatus
+I[16:49:18.120] <-- textDocument/hover(267)
+I[16:49:18.121] --> reply:textDocument/hover(267) 1 ms
+I[16:49:18.121] --> textDocument/clangd.fileStatus
+I[16:49:18.427] <-- textDocument/hover(268)
+I[16:49:18.428] --> reply:textDocument/hover(268) 0 ms
+I[16:49:18.428] --> textDocument/clangd.fileStatus
+I[16:49:20.223] <-- textDocument/hover(269)
+I[16:49:20.224] --> reply:textDocument/hover(269) 0 ms
+I[16:49:20.224] --> textDocument/clangd.fileStatus
+I[16:49:22.816] <-- textDocument/hover(270)
+I[16:49:22.818] --> reply:textDocument/hover(270) 1 ms
+I[16:49:22.818] --> textDocument/clangd.fileStatus
+I[16:49:23.017] <-- textDocument/hover(271)
+I[16:49:23.019] --> reply:textDocument/hover(271) 1 ms
+I[16:49:23.019] --> textDocument/clangd.fileStatus
+I[16:49:24.132] <-- textDocument/hover(272)
+I[16:49:24.134] --> reply:textDocument/hover(272) 2 ms
+I[16:49:24.134] --> textDocument/clangd.fileStatus
+I[16:49:24.431] <-- textDocument/hover(273)
+I[16:49:24.432] --> reply:textDocument/hover(273) 1 ms
+I[16:49:24.432] --> textDocument/clangd.fileStatus
+I[16:49:24.632] <-- textDocument/hover(274)
+I[16:49:24.634] --> reply:textDocument/hover(274) 1 ms
+I[16:49:24.634] --> textDocument/clangd.fileStatus
+I[16:49:24.760] <-- textDocument/documentHighlight(275)
+I[16:49:24.761] --> reply:textDocument/documentHighlight(275) 0 ms
+I[16:49:24.761] --> textDocument/clangd.fileStatus
+I[16:49:24.983] <-- textDocument/codeAction(276)
+I[16:49:24.983] --> reply:textDocument/codeAction(276) 0 ms
+I[16:49:24.984] --> textDocument/clangd.fileStatus
+I[16:49:26.730] <-- textDocument/hover(277)
+I[16:49:26.733] --> reply:textDocument/hover(277) 2 ms
+I[16:49:26.733] --> textDocument/clangd.fileStatus
+I[16:49:26.754] <-- textDocument/didChange
+I[16:49:26.754] --> textDocument/clangd.fileStatus
+I[16:49:26.804] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:49:26.805] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 47 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:49:26.806] --> textDocument/clangd.fileStatus
+I[16:49:26.807] --> textDocument/clangd.fileStatus
+I[16:49:26.807] --> textDocument/clangd.fileStatus
+I[16:49:26.815] --> textDocument/publishDiagnostics
+I[16:49:26.815] --> textDocument/clangd.fileStatus
+I[16:49:27.051] <-- textDocument/semanticTokens/full/delta(278)
+I[16:49:27.051] --> reply:textDocument/semanticTokens/full/delta(278) 0 ms
+I[16:49:27.051] --> textDocument/clangd.fileStatus
+I[16:49:27.072] <-- textDocument/codeAction(279)
+I[16:49:27.073] --> reply:textDocument/codeAction(279) 0 ms
+I[16:49:27.073] --> textDocument/clangd.fileStatus
+I[16:49:27.104] <-- textDocument/documentSymbol(280)
+I[16:49:27.106] --> reply:textDocument/documentSymbol(280) 1 ms
+I[16:49:27.106] --> textDocument/clangd.fileStatus
+I[16:49:27.757] <-- textDocument/documentLink(281)
+I[16:49:27.757] --> reply:textDocument/documentLink(281) 0 ms
+I[16:49:27.757] --> textDocument/clangd.fileStatus
+I[16:49:30.251] <-- textDocument/documentHighlight(282)
+I[16:49:30.252] --> reply:textDocument/documentHighlight(282) 1 ms
+I[16:49:30.252] --> textDocument/clangd.fileStatus
+I[16:49:30.479] <-- textDocument/codeAction(283)
+I[16:49:30.480] --> reply:textDocument/codeAction(283) 0 ms
+I[16:49:30.480] --> textDocument/clangd.fileStatus
+I[16:49:30.701] <-- textDocument/hover(284)
+I[16:49:30.703] --> reply:textDocument/hover(284) 1 ms
+I[16:49:30.703] --> textDocument/clangd.fileStatus
+I[16:49:31.233] <-- textDocument/codeAction(285)
+I[16:49:31.233] --> reply:textDocument/codeAction(285) 0 ms
+I[16:49:31.234] --> textDocument/clangd.fileStatus
+I[16:49:32.239] <-- textDocument/didChange
+I[16:49:32.239] --> textDocument/clangd.fileStatus
+I[16:49:32.290] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:49:32.290] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 48 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:49:32.291] --> textDocument/clangd.fileStatus
+I[16:49:32.291] --> textDocument/clangd.fileStatus
+I[16:49:32.291] --> textDocument/clangd.fileStatus
+I[16:49:32.301] --> textDocument/publishDiagnostics
+I[16:49:32.302] --> textDocument/clangd.fileStatus
+I[16:49:32.313] <-- textDocument/didChange
+I[16:49:32.329] --> textDocument/clangd.fileStatus
+I[16:49:32.364] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:49:32.364] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 49 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:49:32.365] --> textDocument/clangd.fileStatus
+I[16:49:32.366] --> textDocument/clangd.fileStatus
+I[16:49:32.366] --> textDocument/clangd.fileStatus
+I[16:49:32.366] --> textDocument/clangd.fileStatus
+I[16:49:32.525] <-- textDocument/semanticTokens/full/delta(286)
+I[16:49:32.527] --> reply:textDocument/semanticTokens/full/delta(286) 1 ms
+I[16:49:32.527] --> textDocument/clangd.fileStatus
+I[16:49:32.573] <-- textDocument/codeAction(287)
+I[16:49:32.574] --> reply:textDocument/codeAction(287) 0 ms
+I[16:49:32.574] --> textDocument/clangd.fileStatus
+I[16:49:32.657] <-- textDocument/documentSymbol(288)
+I[16:49:32.658] --> reply:textDocument/documentSymbol(288) 0 ms
+I[16:49:32.659] --> textDocument/clangd.fileStatus
+I[16:49:32.975] <-- textDocument/codeAction(289)
+I[16:49:32.975] --> reply:textDocument/codeAction(289) 0 ms
+I[16:49:32.975] --> textDocument/clangd.fileStatus
+I[16:49:33.231] <-- textDocument/documentLink(290)
+I[16:49:33.232] --> reply:textDocument/documentLink(290) 0 ms
+I[16:49:33.232] --> textDocument/clangd.fileStatus
+I[16:49:33.361] <-- textDocument/didChange
+I[16:49:33.361] --> textDocument/clangd.fileStatus
+I[16:49:33.411] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:49:33.411] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 50 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:49:33.414] --> textDocument/clangd.fileStatus
+I[16:49:33.414] --> textDocument/clangd.fileStatus
+I[16:49:33.415] --> textDocument/clangd.fileStatus
+I[16:49:33.427] --> textDocument/publishDiagnostics
+I[16:49:33.427] --> textDocument/clangd.fileStatus
+I[16:49:33.479] <-- textDocument/didChange
+I[16:49:33.480] --> textDocument/clangd.fileStatus
+I[16:49:33.530] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:49:33.530] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 51 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:49:33.532] --> textDocument/clangd.fileStatus
+I[16:49:33.533] --> textDocument/clangd.fileStatus
+I[16:49:33.533] --> textDocument/clangd.fileStatus
+I[16:49:33.544] --> textDocument/publishDiagnostics
+I[16:49:33.544] --> textDocument/clangd.fileStatus
+I[16:49:33.630] <-- textDocument/semanticTokens/full/delta(291)
+I[16:49:33.631] --> reply:textDocument/semanticTokens/full/delta(291) 0 ms
+I[16:49:33.631] --> textDocument/clangd.fileStatus
+I[16:49:33.815] <-- textDocument/codeAction(292)
+I[16:49:33.816] --> reply:textDocument/codeAction(292) 0 ms
+I[16:49:33.816] --> textDocument/clangd.fileStatus
+I[16:49:33.827] <-- textDocument/documentSymbol(293)
+I[16:49:33.828] --> reply:textDocument/documentSymbol(293) 0 ms
+I[16:49:33.829] --> textDocument/clangd.fileStatus
+I[16:49:34.289] <-- textDocument/documentHighlight(294)
+I[16:49:34.290] --> reply:textDocument/documentHighlight(294) 1 ms
+I[16:49:34.290] --> textDocument/clangd.fileStatus
+I[16:49:34.333] <-- textDocument/documentLink(295)
+I[16:49:34.333] --> reply:textDocument/documentLink(295) 0 ms
+I[16:49:34.333] --> textDocument/clangd.fileStatus
+I[16:49:35.528] <-- textDocument/codeAction(296)
+I[16:49:35.528] --> reply:textDocument/codeAction(296) 0 ms
+I[16:49:35.529] --> textDocument/clangd.fileStatus
+I[16:49:35.925] <-- textDocument/didChange
+I[16:49:35.925] --> textDocument/clangd.fileStatus
+I[16:49:35.975] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:49:35.976] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 52 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:49:35.984] --> textDocument/clangd.fileStatus
+I[16:49:35.984] --> textDocument/clangd.fileStatus
+I[16:49:35.984] --> textDocument/clangd.fileStatus
+I[16:49:36.015] --> textDocument/publishDiagnostics
+I[16:49:36.016] --> textDocument/clangd.fileStatus
+I[16:49:36.040] <-- textDocument/didChange
+I[16:49:36.041] --> textDocument/clangd.fileStatus
+I[16:49:36.091] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:49:36.091] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 53 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:49:36.095] --> textDocument/clangd.fileStatus
+I[16:49:36.095] --> textDocument/clangd.fileStatus
+I[16:49:36.095] --> textDocument/clangd.fileStatus
+I[16:49:36.095] --> textDocument/clangd.fileStatus
+I[16:49:36.205] <-- textDocument/semanticTokens/full/delta(297)
+I[16:49:36.206] --> reply:textDocument/semanticTokens/full/delta(297) 1 ms
+I[16:49:36.206] --> textDocument/clangd.fileStatus
+I[16:49:36.309] <-- textDocument/codeAction(298)
+I[16:49:36.309] --> reply:textDocument/codeAction(298) 0 ms
+I[16:49:36.309] --> textDocument/clangd.fileStatus
+I[16:49:36.358] <-- textDocument/documentSymbol(299)
+I[16:49:36.358] --> reply:textDocument/documentSymbol(299) 0 ms
+I[16:49:36.359] --> textDocument/clangd.fileStatus
+I[16:49:36.638] <-- textDocument/codeAction(300)
+I[16:49:36.639] --> reply:textDocument/codeAction(300) 0 ms
+I[16:49:36.639] --> textDocument/clangd.fileStatus
+I[16:49:36.790] <-- textDocument/didChange
+I[16:49:36.790] --> textDocument/clangd.fileStatus
+I[16:49:36.840] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:49:36.840] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 54 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:49:36.845] --> textDocument/clangd.fileStatus
+I[16:49:36.845] --> textDocument/clangd.fileStatus
+I[16:49:36.847] --> textDocument/clangd.fileStatus
+I[16:49:36.876] --> textDocument/publishDiagnostics
+I[16:49:36.877] --> textDocument/clangd.fileStatus
+I[16:49:36.912] <-- textDocument/documentLink(301)
+I[16:49:36.912] --> reply:textDocument/documentLink(301) 0 ms
+I[16:49:36.912] --> textDocument/clangd.fileStatus
+I[16:49:37.055] <-- textDocument/semanticTokens/full/delta(302)
+I[16:49:37.056] --> reply:textDocument/semanticTokens/full/delta(302) 0 ms
+I[16:49:37.056] --> textDocument/clangd.fileStatus
+I[16:49:37.106] <-- textDocument/documentSymbol(303)
+I[16:49:37.108] --> reply:textDocument/documentSymbol(303) 1 ms
+I[16:49:37.108] --> textDocument/clangd.fileStatus
+I[16:49:37.151] <-- textDocument/codeAction(304)
+I[16:49:37.152] --> reply:textDocument/codeAction(304) 0 ms
+I[16:49:37.152] --> textDocument/clangd.fileStatus
+I[16:49:37.624] <-- textDocument/didChange
+I[16:49:37.624] --> textDocument/clangd.fileStatus
+I[16:49:37.674] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:49:37.674] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 55 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:49:37.676] --> textDocument/clangd.fileStatus
+I[16:49:37.676] --> textDocument/clangd.fileStatus
+I[16:49:37.676] --> textDocument/clangd.fileStatus
+I[16:49:37.683] --> textDocument/publishDiagnostics
+I[16:49:37.683] --> textDocument/clangd.fileStatus
+I[16:49:37.869] <-- textDocument/didChange
+I[16:49:37.869] --> textDocument/clangd.fileStatus
+I[16:49:37.900] <-- textDocument/semanticTokens/full/delta(305)
+I[16:49:37.900] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:49:37.900] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 56 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:49:37.901] --> textDocument/clangd.fileStatus
+I[16:49:37.910] --> reply:textDocument/semanticTokens/full/delta(305) 9 ms
+I[16:49:37.910] Skipping rebuild of the AST for /home/rhythmrx9/code/cFiles/samp..c, inputs are the same.
+I[16:49:37.910] --> textDocument/publishDiagnostics
+I[16:49:37.911] --> textDocument/clangd.fileStatus
+I[16:49:38.004] <-- textDocument/didChange
+I[16:49:38.004] --> textDocument/clangd.fileStatus
+I[16:49:38.054] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:49:38.055] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 57 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:49:38.060] --> textDocument/clangd.fileStatus
+I[16:49:38.060] --> textDocument/clangd.fileStatus
+I[16:49:38.061] --> textDocument/clangd.fileStatus
+I[16:49:38.089] --> textDocument/publishDiagnostics
+I[16:49:38.090] --> textDocument/clangd.fileStatus
+I[16:49:38.291] <-- textDocument/semanticTokens/full/delta(306)
+I[16:49:38.292] --> reply:textDocument/semanticTokens/full/delta(306) 1 ms
+I[16:49:38.292] --> textDocument/clangd.fileStatus
+I[16:49:38.319] <-- textDocument/didChange
+I[16:49:38.319] --> textDocument/clangd.fileStatus
+I[16:49:38.369] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:49:38.370] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 58 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:49:38.376] --> textDocument/clangd.fileStatus
+I[16:49:38.408] --> textDocument/publishDiagnostics
+I[16:49:38.408] --> textDocument/clangd.fileStatus
+I[16:49:38.605] <-- textDocument/documentLink(307)
+I[16:49:38.605] --> reply:textDocument/documentLink(307) 0 ms
+I[16:49:38.605] --> textDocument/clangd.fileStatus
+I[16:49:38.613] <-- textDocument/semanticTokens/full/delta(308)
+I[16:49:38.614] --> reply:textDocument/semanticTokens/full/delta(308) 1 ms
+I[16:49:38.614] --> textDocument/clangd.fileStatus
+I[16:49:38.663] <-- textDocument/documentSymbol(309)
+I[16:49:38.664] --> reply:textDocument/documentSymbol(309) 0 ms
+I[16:49:38.665] --> textDocument/clangd.fileStatus
+I[16:49:38.680] <-- textDocument/codeAction(310)
+I[16:49:38.680] --> reply:textDocument/codeAction(310) 0 ms
+I[16:49:38.680] --> textDocument/clangd.fileStatus
+I[16:49:38.915] <-- textDocument/didChange
+I[16:49:38.915] --> textDocument/clangd.fileStatus
+I[16:49:38.965] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:49:38.965] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 59 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:49:38.967] --> textDocument/clangd.fileStatus
+I[16:49:38.967] --> textDocument/clangd.fileStatus
+I[16:49:38.968] --> textDocument/clangd.fileStatus
+I[16:49:38.977] --> textDocument/publishDiagnostics
+I[16:49:38.977] --> textDocument/clangd.fileStatus
+I[16:49:39.190] <-- textDocument/semanticTokens/full/delta(311)
+I[16:49:39.191] --> reply:textDocument/semanticTokens/full/delta(311) 0 ms
+I[16:49:39.191] --> textDocument/clangd.fileStatus
+I[16:49:39.236] <-- textDocument/codeAction(312)
+I[16:49:39.236] --> reply:textDocument/codeAction(312) 0 ms
+I[16:49:39.237] --> textDocument/clangd.fileStatus
+I[16:49:39.243] <-- textDocument/documentSymbol(313)
+I[16:49:39.243] --> reply:textDocument/documentSymbol(313) 0 ms
+I[16:49:39.244] --> textDocument/clangd.fileStatus
+I[16:49:39.843] <-- textDocument/didSave
+I[16:49:39.843] --> textDocument/clangd.fileStatus
+I[16:49:39.893] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:49:39.893] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 59 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:49:39.900] --> textDocument/clangd.fileStatus
+I[16:49:39.900] --> textDocument/clangd.fileStatus
+I[16:49:39.900] --> textDocument/clangd.fileStatus
+I[16:49:39.900] --> textDocument/clangd.fileStatus
+I[16:49:39.908] <-- textDocument/documentLink(314)
+I[16:49:39.908] --> reply:textDocument/documentLink(314) 0 ms
+I[16:49:39.908] --> textDocument/clangd.fileStatus
+I[16:49:43.678] <-- textDocument/hover(315)
+I[16:49:43.681] --> reply:textDocument/hover(315) 2 ms
+I[16:49:43.681] --> textDocument/clangd.fileStatus
+I[16:49:43.750] <-- textDocument/documentHighlight(316)
+I[16:49:43.751] --> reply:textDocument/documentHighlight(316) 1 ms
+I[16:49:43.751] --> textDocument/clangd.fileStatus
+I[16:49:43.978] <-- textDocument/codeAction(317)
+I[16:49:43.980] --> reply:textDocument/codeAction(317) 2 ms
+I[16:49:43.981] --> textDocument/clangd.fileStatus
+I[16:49:44.261] <-- textDocument/hover(318)
+I[16:49:44.262] --> reply:textDocument/hover(318) 0 ms
+I[16:49:44.262] --> textDocument/clangd.fileStatus
+I[16:49:44.800] <-- textDocument/didChange
+I[16:49:44.800] --> textDocument/clangd.fileStatus
+I[16:49:44.850] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:49:44.850] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 60 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:49:44.852] --> textDocument/clangd.fileStatus
+I[16:49:44.853] --> textDocument/clangd.fileStatus
+I[16:49:44.853] --> textDocument/clangd.fileStatus
+I[16:49:44.862] --> textDocument/publishDiagnostics
+I[16:49:44.862] --> textDocument/clangd.fileStatus
+I[16:49:44.969] <-- textDocument/hover(319)
+I[16:49:44.970] --> reply:textDocument/hover(319) 0 ms
+I[16:49:44.970] --> textDocument/clangd.fileStatus
+I[16:49:45.091] <-- textDocument/semanticTokens/full/delta(320)
+I[16:49:45.092] --> reply:textDocument/semanticTokens/full/delta(320) 1 ms
+I[16:49:45.093] --> textDocument/clangd.fileStatus
+I[16:49:45.125] <-- textDocument/codeAction(321)
+I[16:49:45.126] --> reply:textDocument/codeAction(321) 0 ms
+I[16:49:45.126] --> textDocument/clangd.fileStatus
+I[16:49:45.143] <-- textDocument/documentSymbol(322)
+I[16:49:45.143] --> reply:textDocument/documentSymbol(322) 0 ms
+I[16:49:45.144] --> textDocument/clangd.fileStatus
+I[16:49:45.796] <-- textDocument/documentLink(323)
+I[16:49:45.797] --> reply:textDocument/documentLink(323) 0 ms
+I[16:49:45.797] --> textDocument/clangd.fileStatus
+I[16:49:51.636] <-- textDocument/didSave
+I[16:49:51.637] --> textDocument/clangd.fileStatus
+I[16:49:51.687] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:49:51.687] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 60 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:49:51.693] --> textDocument/clangd.fileStatus
+I[16:49:51.693] --> textDocument/clangd.fileStatus
+I[16:49:51.693] --> textDocument/clangd.fileStatus
+I[16:49:51.693] --> textDocument/clangd.fileStatus
+I[16:50:06.472] <-- textDocument/codeAction(324)
+I[16:50:06.472] --> reply:textDocument/codeAction(324) 0 ms
+I[16:50:06.472] --> textDocument/clangd.fileStatus
+I[16:50:07.150] <-- textDocument/hover(325)
+I[16:50:07.150] --> reply:textDocument/hover(325) 0 ms
+I[16:50:07.150] --> textDocument/clangd.fileStatus
+I[16:50:08.400] <-- textDocument/codeAction(326)
+I[16:50:08.401] --> reply:textDocument/codeAction(326) 0 ms
+I[16:50:08.401] --> textDocument/clangd.fileStatus
+I[16:50:09.168] <-- textDocument/codeAction(327)
+I[16:50:09.170] --> reply:textDocument/codeAction(327) 2 ms
+I[16:50:09.170] --> textDocument/clangd.fileStatus
+I[16:50:09.461] <-- textDocument/didChange
+I[16:50:09.461] --> textDocument/clangd.fileStatus
+I[16:50:09.512] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:50:09.512] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 61 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:50:09.514] --> textDocument/clangd.fileStatus
+I[16:50:09.514] --> textDocument/clangd.fileStatus
+I[16:50:09.527] --> textDocument/clangd.fileStatus
+I[16:50:09.533] --> textDocument/publishDiagnostics
+I[16:50:09.533] --> textDocument/clangd.fileStatus
+I[16:50:09.733] <-- textDocument/semanticTokens/full/delta(328)
+I[16:50:09.733] --> reply:textDocument/semanticTokens/full/delta(328) 0 ms
+I[16:50:09.733] --> textDocument/clangd.fileStatus
+I[16:50:09.786] <-- textDocument/documentSymbol(329)
+I[16:50:09.786] --> reply:textDocument/documentSymbol(329) 0 ms
+I[16:50:09.786] --> textDocument/clangd.fileStatus
+I[16:50:10.439] <-- textDocument/documentLink(330)
+I[16:50:10.439] --> reply:textDocument/documentLink(330) 0 ms
+I[16:50:10.439] --> textDocument/clangd.fileStatus
+I[16:50:20.690] <-- textDocument/documentSymbol(331)
+I[16:50:20.690] --> reply:textDocument/documentSymbol(331) 0 ms
+I[16:50:20.690] --> textDocument/clangd.fileStatus
+I[16:50:20.775] <-- textDocument/didOpen
+I[16:50:20.775] <-- textDocument/documentLink(332)
+I[16:50:20.775] <-- textDocument/documentSymbol(333)
+I[16:50:20.776] Failed to find compilation database for /home/rhythmrx9/code/cFiles/another.c
+I[16:50:20.776] ASTWorker building file /home/rhythmrx9/code/cFiles/another.c version 1 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/another.c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:50:20.796] <-- textDocument/semanticTokens/full(334)
+I[16:50:20.808] --> textDocument/clangd.fileStatus
+I[16:50:20.843] --> textDocument/clangd.fileStatus
+I[16:50:20.843] --> textDocument/clangd.fileStatus
+I[16:50:20.849] --> textDocument/clangd.fileStatus
+I[16:50:20.850] --> textDocument/publishDiagnostics
+I[16:50:20.850] --> textDocument/clangd.fileStatus
+I[16:50:20.851] --> reply:textDocument/documentLink(332) 76 ms
+I[16:50:20.852] --> textDocument/clangd.fileStatus
+I[16:50:20.852] --> reply:textDocument/documentSymbol(333) 76 ms
+I[16:50:20.852] --> textDocument/clangd.fileStatus
+I[16:50:20.852] --> reply:textDocument/semanticTokens/full(334) 55 ms
+I[16:50:20.852] --> textDocument/clangd.fileStatus
+I[16:50:20.853] --> textDocument/clangd.fileStatus
+I[16:50:22.734] <-- textDocument/didChange
+I[16:50:22.734] --> textDocument/clangd.fileStatus
+I[16:50:22.784] Failed to find compilation database for /home/rhythmrx9/code/cFiles/another.c
+I[16:50:22.784] ASTWorker building file /home/rhythmrx9/code/cFiles/another.c version 2 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/another.c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:50:22.785] --> textDocument/clangd.fileStatus
+I[16:50:22.786] --> textDocument/clangd.fileStatus
+I[16:50:22.817] --> textDocument/clangd.fileStatus
+I[16:50:22.823] --> textDocument/publishDiagnostics
+I[16:50:22.823] --> textDocument/clangd.fileStatus
+I[16:50:22.960] <-- textDocument/codeAction(335)
+I[16:50:22.960] --> reply:textDocument/codeAction(335) 0 ms
+I[16:50:22.960] --> textDocument/clangd.fileStatus
+I[16:50:22.999] <-- textDocument/semanticTokens/full/delta(336)
+I[16:50:23.000] --> reply:textDocument/semanticTokens/full/delta(336) 0 ms
+I[16:50:23.000] --> textDocument/clangd.fileStatus
+I[16:50:23.055] <-- textDocument/documentSymbol(337)
+I[16:50:23.056] --> reply:textDocument/documentSymbol(337) 0 ms
+I[16:50:23.056] --> textDocument/clangd.fileStatus
+I[16:50:23.386] <-- textDocument/didSave
+I[16:50:23.386] --> textDocument/clangd.fileStatus
+I[16:50:23.386] --> textDocument/clangd.fileStatus
+I[16:50:23.436] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp..c
+I[16:50:23.436] ASTWorker building file /home/rhythmrx9/code/cFiles/samp..c version 61 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp..c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:50:23.436] Failed to find compilation database for /home/rhythmrx9/code/cFiles/another.c
+I[16:50:23.438] ASTWorker building file /home/rhythmrx9/code/cFiles/another.c version 2 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/another.c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[16:50:23.441] --> textDocument/clangd.fileStatus
+I[16:50:23.441] --> textDocument/clangd.fileStatus
+I[16:50:23.441] --> textDocument/clangd.fileStatus
+I[16:50:23.441] --> textDocument/clangd.fileStatus
+I[16:50:23.442] --> textDocument/clangd.fileStatus
+I[16:50:23.442] --> textDocument/clangd.fileStatus
+I[16:50:23.442] --> textDocument/clangd.fileStatus
+I[16:50:23.442] --> textDocument/clangd.fileStatus
+I[16:50:23.713] <-- textDocument/documentLink(338)
+I[16:50:23.713] --> reply:textDocument/documentLink(338) 0 ms
+I[16:50:23.713] --> textDocument/clangd.fileStatus
+I[16:51:51.383] <-- textDocument/hover(339)
+I[16:51:51.383] --> reply:textDocument/hover(339) 0 ms
+I[16:51:51.383] --> textDocument/clangd.fileStatus
+I[16:51:52.026] <-- textDocument/hover(340)
+I[16:51:52.031] --> reply:textDocument/hover(340) 5 ms
+I[16:51:52.031] --> textDocument/clangd.fileStatus
+I[16:52:35.283] <-- shutdown(341)
+I[16:52:35.283] --> reply:shutdown(341) 0 ms
+E[16:52:35.284] Transport error: Input/output error
+I[16:52:35.284] LSP finished, exiting with status 1

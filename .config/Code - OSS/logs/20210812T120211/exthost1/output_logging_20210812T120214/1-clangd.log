@@ -1,0 +1,33 @@
+I[12:02:14.981] clangd version 12.0.1
+I[12:02:14.981] PID: 11735
+I[12:02:14.981] Working directory: /home/rhythmrx9/code/cFiles
+I[12:02:14.981] argv[0]: /usr/bin/clangd
+I[12:02:14.983] Starting LSP over stdin/stdout
+I[12:02:14.985] <-- initialize(0)
+I[12:02:14.987] Client supports legacy semanticHighlights notification and standard semanticTokens request, choosing the latter (no notifications).
+I[12:02:14.993] --> reply:initialize(0) 7 ms
+I[12:02:15.256] <-- initialized
+I[12:02:15.256] <-- textDocument/didOpen
+I[12:02:15.290] Failed to find compilation database for /home/rhythmrx9/code/cFiles/samp.c
+I[12:02:15.290] ASTWorker building file /home/rhythmrx9/code/cFiles/samp.c version 1 with command clangd fallback
+[/home/rhythmrx9/code/cFiles]
+/usr/bin/clang /home/rhythmrx9/code/cFiles/samp.c -fsyntax-only -resource-dir=/usr/lib/clang/12.0.1
+I[12:02:15.328] --> textDocument/clangd.fileStatus
+I[12:02:15.363] <-- textDocument/codeAction(1)
+I[12:02:15.363] <-- textDocument/documentLink(2)
+I[12:02:15.526] --> textDocument/publishDiagnostics
+I[12:02:15.529] --> reply:textDocument/codeAction(1) 165 ms
+I[12:02:15.529] --> reply:textDocument/documentLink(2) 165 ms
+I[12:02:15.529] --> textDocument/clangd.fileStatus
+I[12:02:15.565] <-- textDocument/semanticTokens/full(3)
+I[12:02:15.566] --> reply:textDocument/semanticTokens/full(3) 0 ms
+I[12:02:15.566] --> textDocument/clangd.fileStatus
+I[12:02:15.624] <-- textDocument/codeAction(4)
+I[12:02:15.624] <-- textDocument/documentSymbol(5)
+I[12:02:15.624] --> reply:textDocument/codeAction(4) 0 ms
+I[12:02:15.625] --> reply:textDocument/documentSymbol(5) 0 ms
+I[12:02:15.625] --> textDocument/clangd.fileStatus
+I[12:02:22.237] <-- shutdown(6)
+I[12:02:22.237] --> reply:shutdown(6) 0 ms
+E[12:02:22.238] Transport error: Input/output error
+I[12:02:22.238] LSP finished, exiting with status 1

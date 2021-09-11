@@ -1,0 +1,121 @@
+[2021-08-14 11:19:14.501] [exthost] [info] extension host started
+[2021-08-14 11:19:14.587] [exthost] [info] Lock '/home/rhythmrx9/.config/Code - OSS/User/workspaceStorage/e8cde563a10cc9087bbc70a4f242fdf9/vscode.lock': Lock acquired.
+[2021-08-14 11:19:14.609] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-08-14 11:19:14.609] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2021-08-14 11:19:14.615] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-08-14 11:19:14.615] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
+[2021-08-14 11:19:14.662] [exthost] [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme {"startup":true,"extensionId":{"value":"zhuangtongfa.material-theme","_lower":"zhuangtongfa.material-theme"},"activationEvent":"*"}
+[2021-08-14 11:19:14.662] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/rhythmrx9/.vscode-oss/extensions/zhuangtongfa.material-theme-3.11.3/out/extension.js
+[2021-08-14 11:19:14.700] [exthost] [error] Activating extension zhuangtongfa.material-theme failed due to an error:
+[2021-08-14 11:19:14.700] [exthost] [error] Error: Cannot find module '/home/rhythmrx9/.vscode-oss/extensions/zhuangtongfa.material-theme-3.11.3/node_modules/marked/src/marked.js'. Please verify that the package.json has a valid "main" entry
+	at tryPackage (internal/modules/cjs/loader.js:310:19)
+	at Function.Module._findPath (internal/modules/cjs/loader.js:523:18)
+	at Function.Module._resolveFilename (internal/modules/cjs/loader.js:874:27)
+	at Module._load (internal/modules/cjs/loader.js:732:27)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+	at Function.s._load (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:27800)
+	at Function.b._load (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:24471)
+	at Function.l._load (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:59004)
+	at Module.require (internal/modules/cjs/loader.js:959:19)
+	at v (/usr/lib/code/out/vs/loader.js:4:698)
+	at Object.<anonymous> (/home/rhythmrx9/.vscode-oss/extensions/zhuangtongfa.material-theme-3.11.3/out/webviews/Changelog.js:7:16)
+	at Module.u._compile (/usr/lib/code/out/vs/loader.js:4:1315)
+	at Object.Module._extensions..js (internal/modules/cjs/loader.js:1108:10)
+	at Module.load (internal/modules/cjs/loader.js:935:32)
+	at Module._load (internal/modules/cjs/loader.js:776:14)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+	at Function.s._load (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:27800)
+	at Function.b._load (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:24471)
+	at Function.l._load (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:59004)
+	at Module.require (internal/modules/cjs/loader.js:959:19)
+	at v (/usr/lib/code/out/vs/loader.js:4:698)
+	at Object.<anonymous> (/home/rhythmrx9/.vscode-oss/extensions/zhuangtongfa.material-theme-3.11.3/out/extension.js:16:21)
+	at Module.u._compile (/usr/lib/code/out/vs/loader.js:4:1315)
+	at Object.Module._extensions..js (internal/modules/cjs/loader.js:1108:10)
+	at Module.load (internal/modules/cjs/loader.js:935:32)
+	at Module._load (internal/modules/cjs/loader.js:776:14)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+	at Function.s._load (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:27800)
+	at Function.b._load (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:24471)
+	at Function.l._load (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:59004)
+	at Module.require (internal/modules/cjs/loader.js:959:19)
+	at require (internal/modules/cjs/helpers.js:88:18)
+	at Function.t [as __$__nodeRequire] (/usr/lib/code/out/vs/loader.js:5:101)
+	at c._loadCommonJSModule (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:25877)
+	at c._doActivateExtension (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12556)
+	at c._activateExtension (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11657)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async Promise.all (index 2)
+	at async Promise.all (index 0)
+[2021-08-14 11:19:14.809] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-08-14 11:19:14.810] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/ms-vscode.js-debug/src/extension.js
+[2021-08-14 11:19:15.608] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-08-14 11:19:15.609] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/github/dist/extension.js
+[2021-08-14 11:19:15.785] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-08-14 11:19:15.785] [exthost] [info] Lock '/home/rhythmrx9/.config/Code - OSS/User/workspaceStorage/e8cde563a10cc9087bbc70a4f242fdf9/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2021-08-14 11:19:15.794] [exthost] [info] eager extensions activated
+[2021-08-14 11:19:15.795] [exthost] [error] Activating extension vscode.emmet failed due to an error:
+[2021-08-14 11:19:15.795] [exthost] [error] Canceled: Canceled
+	at Object.i [as canceled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+	at u._remoteCall (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:12817)
+	at Proxy._.<computed>.D.charCodeAt._.<computed> (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:9349)
+	at c._activateExtension (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11613)
+	at Object.actualActivateExtension (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9202)
+	at d._activateExtension (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:97724)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:97406
+	at Array.map (<anonymous>)
+	at d._activateExtensions (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:97394)
+	at d.activateById (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:95024)
+	at c._activateById (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10204)
+	at c._activateOneStartupFinished (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:15096)
+	at c._activateAllStartupFinished (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:15467)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:15956
+[2021-08-14 11:19:15.795] [exthost] [error] Activating extension vscode.merge-conflict failed due to an error:
+[2021-08-14 11:19:15.795] [exthost] [error] Canceled: Canceled
+	at Object.i [as canceled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+	at u._remoteCall (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:12817)
+	at Proxy._.<computed>.D.charCodeAt._.<computed> (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:9349)
+	at c._activateExtension (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11613)
+	at Object.actualActivateExtension (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9202)
+	at d._activateExtension (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:97724)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:97406
+	at Array.map (<anonymous>)
+	at d._activateExtensions (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:97394)
+	at d.activateById (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:95024)
+	at c._activateById (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10204)
+	at c._activateOneStartupFinished (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:15096)
+	at c._activateAllStartupFinished (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:15467)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:15956
+[2021-08-14 11:19:15.795] [exthost] [error] Activating extension vscode.testing-editor-contributions failed due to an error:
+[2021-08-14 11:19:15.796] [exthost] [error] Canceled: Canceled
+	at Object.i [as canceled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+	at u._remoteCall (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:12817)
+	at Proxy._.<computed>.D.charCodeAt._.<computed> (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:9349)
+	at c._activateExtension (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11613)
+	at Object.actualActivateExtension (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9202)
+	at d._activateExtension (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:97724)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:97406
+	at Array.map (<anonymous>)
+	at d._activateExtensions (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:97394)
+	at d.activateById (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:95024)
+	at c._activateById (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10204)
+	at c._activateOneStartupFinished (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:15096)
+	at c._activateAllStartupFinished (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:15467)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:15956
+[2021-08-14 11:19:15.796] [exthost] [error] Activating extension esbenp.prettier-vscode failed due to an error:
+[2021-08-14 11:19:15.796] [exthost] [error] Canceled: Canceled
+	at Object.i [as canceled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+	at u._remoteCall (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:12817)
+	at Proxy._.<computed>.D.charCodeAt._.<computed> (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:9349)
+	at c._activateExtension (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11613)
+	at Object.actualActivateExtension (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9202)
+	at d._activateExtension (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:97724)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:97406
+	at Array.map (<anonymous>)
+	at d._activateExtensions (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:97394)
+	at d.activateById (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:95024)
+	at c._activateById (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10204)
+	at c._activateOneStartupFinished (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:15096)
+	at c._activateAllStartupFinished (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:15467)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:15956
+[2021-08-14 11:19:16.794] [exthost] [info] exiting with code 0

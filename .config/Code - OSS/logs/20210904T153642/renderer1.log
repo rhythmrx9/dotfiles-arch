@@ -1,0 +1,6 @@
+[2021-09-04 15:36:49.834] [renderer1] [error] Unable to install 'ms-toolsai.jupyter' extension because it is not compatible with the current version of VS Code (version 1.58.0).: incompatible: Unable to install 'ms-toolsai.jupyter' extension because it is not compatible with the current version of VS Code (version 1.58.0).
+    at x.checkAndGetCompatibleVersion (file:///usr/lib/code/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:54:199615)
+    at async X (file:///usr/lib/code/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:54:198978)
+    at async x.getAllDepsAndPackExtensionsToInstall (file:///usr/lib/code/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:54:199268)
+    at async x.runInstallGalleryExtensionTask (file:///usr/lib/code/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:54:195919)
+    at async x.installFromGallery (file:///usr/lib/code/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:54:194095)

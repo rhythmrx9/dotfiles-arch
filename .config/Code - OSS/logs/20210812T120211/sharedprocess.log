@@ -1,0 +1,10 @@
+[2021-08-12 12:02:14.020] [sharedprocess] [info] Deleted from disk esbenp.prettier-vscode /home/rhythmrx9/.vscode-oss/extensions/esbenp.prettier-vscode-8.0.1
+[2021-08-12 12:02:14.024] [sharedprocess] [info] Deleted from disk zhuangtongfa.material-theme /home/rhythmrx9/.vscode-oss/extensions/zhuangtongfa.material-theme-3.11.2
+[2021-08-12 12:02:23.551] [sharedprocess] [info] [logs cleanup]: Starting to clean up old logs.
+[2021-08-12 12:02:23.558] [sharedprocess] [info] [logs cleanup]: Removing log folders '20210804T193552'
+[2021-08-12 12:02:43.548] [sharedprocess] [info] [code cache cleanup]: Starting to clean up old code cache folders.
+[2021-08-12 12:02:43.550] [sharedprocess] [info] [storage cleanup]: Starting to clean up storage folders.
+[2021-08-12 12:02:43.557] [sharedprocess] [info] [storage cleanup]: Deleting storage folder 1628179301199.
+[2021-08-12 12:02:53.548] [sharedprocess] [info] [language pack cache cleanup]: Starting to clean up unused language packs.
+[2021-08-12 15:26:48.759] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2021-08-12 21:20:16.694] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds

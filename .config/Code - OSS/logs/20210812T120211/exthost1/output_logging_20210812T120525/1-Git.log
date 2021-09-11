@@ -1,0 +1,120 @@
+Looking for git in: git
+Using git 2.32.0 from git
+Opening repository for path='/home/rhythmrx9/code/tsFiles' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+> git rev-parse --git-dir
+Open repository: /home/rhythmrx9/code/tsFiles/typescript-tutorial
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/lesson-15 refs/remotes/lesson-15
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/rhythmrx9/code/tsFiles/typescript-tutorial/.git/refs/remotes/origin/lesson-15', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app.ts
+> git ls-files --stage -- /home/rhythmrx9/code/tsFiles/typescript-tutorial/src/app.ts
+> git cat-file -s 9f88289137b5a3c5af356039a591409f63795bdf
+> git check-ignore -v -z --stdin
+> git show --textconv :src/classes/Invoice.ts
+> git ls-files --stage -- /home/rhythmrx9/code/tsFiles/typescript-tutorial/src/classes/Invoice.ts
+> git cat-file -s 810bb12fd3aebb99baf4495ae4ba7fcc2a8fa56c
+> git show --textconv :src/app.ts
+> git ls-files --stage -- /home/rhythmrx9/code/tsFiles/typescript-tutorial/src/app.ts
+> git cat-file -s 9f88289137b5a3c5af356039a591409f63795bdf
+> git checkout -q lesson-11
+error: Your local changes to the following files would be overwritten by checkout:
+	public/app.js
+	public/classes/Invoice.js
+	public/index.html
+	src/app.ts
+	src/classes/Invoice.ts
+	tsconfig.json
+Please commit your changes or stash them before you switch branches.
+Aborting
+> git checkout -q lesson-11
+error: Your local changes to the following files would be overwritten by checkout:
+	public/app.js
+	public/classes/Invoice.js
+	public/index.html
+	src/app.ts
+	src/classes/Invoice.ts
+	tsconfig.json
+Please commit your changes or stash them before you switch branches.
+Aborting
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/lesson-15 refs/remotes/lesson-15
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/rhythmrx9/code/tsFiles/typescript-tutorial/.git/refs/remotes/origin/lesson-15', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /home/rhythmrx9/code/tsFiles/typescript-tutorial/src/app.ts
+> git cat-file -s 9bbf62565c7625f254aea24ff207a64ef275ebd7
+> git show --textconv :src/app.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/lesson-15 refs/remotes/lesson-15
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/rhythmrx9/code/tsFiles/typescript-tutorial/.git/refs/remotes/origin/lesson-15', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /home/rhythmrx9/code/tsFiles/typescript-tutorial/src/app.ts
+> git cat-file -s 9bbf62565c7625f254aea24ff207a64ef275ebd7
+> git show --textconv :src/app.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/lesson-15 refs/remotes/lesson-15
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/rhythmrx9/code/tsFiles/typescript-tutorial/.git/refs/remotes/origin/lesson-15', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/lesson-15 refs/remotes/lesson-15
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/rhythmrx9/code/tsFiles/typescript-tutorial/.git/refs/remotes/origin/lesson-15', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/lesson-15 refs/remotes/lesson-15
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/rhythmrx9/code/tsFiles/typescript-tutorial/.git/refs/remotes/origin/lesson-15', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /home/rhythmrx9/code/tsFiles/typescript-tutorial/src/app.ts
+> git cat-file -s 9bbf62565c7625f254aea24ff207a64ef275ebd7
+> git show --textconv :src/app.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/lesson-15 refs/remotes/lesson-15
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/rhythmrx9/code/tsFiles/typescript-tutorial/.git/refs/remotes/origin/lesson-15', is most likely packed.
+> git config --get commit.template
+> git checkout -q lesson-11
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/lesson-11 refs/remotes/lesson-11
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/rhythmrx9/code/tsFiles/typescript-tutorial/.git/refs/remotes/origin/lesson-11', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /home/rhythmrx9/code/tsFiles/typescript-tutorial/src/app.ts
+> git cat-file -s d49a7f8f7f048ac1975eff7d6e22c8dbbed7344a
+> git show --textconv :src/app.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/lesson-11 refs/remotes/lesson-11
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/rhythmrx9/code/tsFiles/typescript-tutorial/.git/refs/remotes/origin/lesson-11', is most likely packed.
+> git config --get commit.template

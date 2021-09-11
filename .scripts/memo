@@ -1,0 +1,30 @@
+#! /usr/bin/bash
+
+
+choice=$(printf "todos\nadd\nremove" | dmenu -p select: )
+
+case $choice in
+	"todos")
+		todo=$(cat todos.txt | cut -f1 -d":" | dmenu -p todos: -l 5)
+		grep $todo todos.txt | cut -f2 -d":" | dmenu -p description: -l 5 >> /dev/null
+		;;
+	"add")
+		todo=$(echo | dmenu -p todo:)
+		desc=$(echo | dmenu -p description:)
+
+		echo $todo : $desc >> todos.txt
+		;;
+	"remove")
+		rem=$(cat todos.txt | cut -f1 -d":" | dmenu -p remove: -l 5)
+		
+		grep $rem todos.txt -v > longstringtempfile.txt
+		cat longstringtempfile.txt > todos.txt
+		rm longstringtempfile.txt
+		;;
+	*)
+		exit
+		;;
+esac
+
+
+
